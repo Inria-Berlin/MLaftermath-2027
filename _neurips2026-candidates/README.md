@@ -35,6 +35,7 @@ Known gaps:
 - [Journal Track](#journal-track) (1)
 - [Workshops](#workshops) (50)
   - [2026 Workshop on SaTQuML: Secure and Trustworthy Quantum Machine Learning](#2026-workshop-on-satquml-secure-and-trustworthy-quantum-machine-learning) (1)
+  - [Agentic Systems for Molecular Sciences](#agentic-systems-for-molecular-sciences) (4)
   - [AI Agents for Biomedical Imaging and Multimodal Clinical Data](#ai-agents-for-biomedical-imaging-and-multimodal-clinical-data) (1)
   - [AI for Drug Discovery: Bridging the Translation Gap](#ai-for-drug-discovery-bridging-the-translation-gap) (1)
   - [AI for Meta-Science: Scaling and Organizing Science in the Age of AI Scientists](#ai-for-meta-science-scaling-and-organizing-science-in-the-age-of-ai-scientists) (1)
@@ -44,19 +45,18 @@ Known gaps:
   - [AIDaR: AI Data Readiness for Scientific Discovery](#aidar-ai-data-readiness-for-scientific-discovery) (2)
   - [ATTRIB: Workshop on Data Attribution and Provenance](#attrib-workshop-on-data-attribution-and-provenance) (2)
   - [AXIOM: Foundations of Efficient Deep Learning](#axiom-foundations-of-efficient-deep-learning) (1)
-  - [Agentic Systems for Molecular Sciences](#agentic-systems-for-molecular-sciences) (4)
   - [Beyond Next Token Prediction: Diffusion and Flow Models for Next-Generation Decoding](#beyond-next-token-prediction-diffusion-and-flow-models-for-next-generation-decoding) (1)
   - [Can We Trust AI Evaluation? Robustness, Causality, and Risk in Modern AI Assessment](#can-we-trust-ai-evaluation-robustness-causality-and-risk-in-modern-ai-assessment) (2)
   - [Continual Learning in the Era of Foundation Models and Embodied Agents](#continual-learning-in-the-era-of-foundation-models-and-embodied-agents) (1)
   - [Foundations of Agentic Systems Theory (FAST)](#foundations-of-agentic-systems-theory-fast) (2)
   - [Foundations of Language Model Security: Theory, Practice, and Fundamental Limits](#foundations-of-language-model-security-theory-practice-and-fundamental-limits) (1)
   - [Generalization for Time Series in Tight Settings: Latency, Inference, Memory, prIvacy and Sustainability (TS-LIMITS)](#generalization-for-time-series-in-tight-settings-latency-inference-memory-privacy-and-sustainability-ts-limits) (1)
-  - [MATH-AI: The 6th Workshop on Mathematical Reasoning and AI](#math-ai-the-6th-workshop-on-mathematical-reasoning-and-ai) (2)
   - [Managing Agents that Manage Agents: Workshop on Responsible Use of Meta-Agents that Build, Optimize, and Supervise Other Agents](#managing-agents-that-manage-agents-workshop-on-responsible-use-of-meta-agents-that-build-optimize-and-supervise-other-agents) (1)
+  - [MATH-AI: The 6th Workshop on Mathematical Reasoning and AI](#math-ai-the-6th-workshop-on-mathematical-reasoning-and-ai) (2)
   - [Reinforcement Learning for Experimental Sciences: Bridging the Simulation-to-Reality Gap](#reinforcement-learning-for-experimental-sciences-bridging-the-simulation-to-reality-gap) (1)
-  - [SLM-Agents: 1st Workshop on SLMs for Agentic Systems](#slm-agents-1st-workshop-on-slms-for-agentic-systems) (1)
   - [Self-Evolving Diversity-Driven Search for Robust AI Systems](#self-evolving-diversity-driven-search-for-robust-ai-systems) (1)
   - [Sim2Science: ML with Imperfect Scientific Models](#sim2science-ml-with-imperfect-scientific-models) (2)
+  - [SLM-Agents: 1st Workshop on SLMs for Agentic Systems](#slm-agents-1st-workshop-on-slms-for-agentic-systems) (1)
   - [SocialAgent: Second Workshop on Large Language Models for Social Reasoning and Simulation](#socialagent-second-workshop-on-large-language-models-for-social-reasoning-and-simulation) (1)
   - [Symmetry and Geometry in Neural Representations NeurIPS Workshops 2026](#symmetry-and-geometry-in-neural-representations-neurips-workshops-2026) (2)
   - [The Third Workshop on Agents in the Wild: Safety, Security, and Beyond](#the-third-workshop-on-agents-in-the-wild-safety-security-and-beyond) (2)
@@ -65,8 +65,8 @@ Known gaps:
   - [Who Verifies the Agents? Toward Reliable Agent Development](#who-verifies-the-agents-toward-reliable-agent-development) (1)
   - [Workshop on Evaluation of Interactive Agents](#workshop-on-evaluation-of-interactive-agents) (1)
   - [Workshop on Resource-Aware Agentic AI](#workshop-on-resource-aware-agentic-ai) (1)
-  - [Workshop on Towards Test-Time Continual Learning Agents](#workshop-on-towards-test-time-continual-learning-agents) (1)
   - [Workshop on the Linguistic Principles for Foundation Models](#workshop-on-the-linguistic-principles-for-foundation-models) (1)
+  - [Workshop on Towards Test-Time Continual Learning Agents](#workshop-on-towards-test-time-continual-learning-agents) (1)
   - [XAI4science: Knowledge Discovery and Trust through Interpretable Foundation Models](#xai4science-knowledge-discovery-and-trust-through-interpretable-foundation-models) (2)
 - [Reproducibility Track (MLRC)](#reproducibility-track-mlrc) (1)
 
@@ -240,6 +240,21 @@ Known gaps:
   **Nico Pelleriti**, Nicolai Kraus, Alexander May, **Sebastian Pokutta**  
   Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
 
+### Agentic Systems for Molecular Sciences
+
+- **[Can a Transformer Run Hartree-Fock? Compiling Self-Consistent Field Theory into Recurrent Transformer Weights](https://openreview.net/forum?id=nrlnxG5IOq)**  
+  **Rostislav Fedorov**  
+  Berlin: Rostislav Fedorov: Helmholtz-Zentrum Berlin
+- **[Openclatura: Agentically Constructed, Verifiable Rules for Molecular Nomenclature](https://openreview.net/forum?id=CUMpjSfR6K)**  
+  **Adrian Mirza**, Kevin Maik Jablonka, **Rostislav Fedorov**  
+  Berlin: Adrian Mirza: Helmholtz-Zentrum Berlin; Rostislav Fedorov: Helmholtz-Zentrum Berlin
+- **[ReSolved-Flow: Synthesis-Informed GFlowNets for Solvent-Conditioned Redox Molecular Design](https://openreview.net/forum?id=iWGADDwDcw)**  
+  Izaac Roberts, **Rostislav Fedorov**, Gregor J Lauter, Ganna Gryn'ova  
+  Berlin: Rostislav Fedorov: Helmholtz-Zentrum Berlin
+- **[scXplain: Dissecting single-cell foundation models beyond predictive performance](https://openreview.net/forum?id=6VZCFj5zaS)**  
+  **Farnoush Rezaei Jafari**, Stephanie Hyland, Kenza Bouzid, Lorin Crawford, Daniel C. Castro  
+  Berlin: Farnoush Rezaei Jafari: Technische Universität Berlin
+
 ### AI Agents for Biomedical Imaging and Multimodal Clinical Data
 
 - **[Ground Before You Decide: An Agentic, Clinical-Workflow-Inspired Pipeline for Verifiable Vision–Language Reasoning on Chest Radiographs](https://openreview.net/forum?id=byhPKAtTDL)** (Poster)  
@@ -303,21 +318,6 @@ Known gaps:
   **Dominic Tarnowski**  
   Berlin: Dominic Tarnowski: HTW Berlin – University of Applied Sciences
 
-### Agentic Systems for Molecular Sciences
-
-- **[Can a Transformer Run Hartree-Fock? Compiling Self-Consistent Field Theory into Recurrent Transformer Weights](https://openreview.net/forum?id=nrlnxG5IOq)**  
-  **Rostislav Fedorov**  
-  Berlin: Rostislav Fedorov: Helmholtz-Zentrum Berlin
-- **[Openclatura: Agentically Constructed, Verifiable Rules for Molecular Nomenclature](https://openreview.net/forum?id=CUMpjSfR6K)**  
-  **Adrian Mirza**, Kevin Maik Jablonka, **Rostislav Fedorov**  
-  Berlin: Adrian Mirza: Helmholtz-Zentrum Berlin; Rostislav Fedorov: Helmholtz-Zentrum Berlin
-- **[ReSolved-Flow: Synthesis-Informed GFlowNets for Solvent-Conditioned Redox Molecular Design](https://openreview.net/forum?id=iWGADDwDcw)**  
-  Izaac Roberts, **Rostislav Fedorov**, Gregor J Lauter, Ganna Gryn'ova  
-  Berlin: Rostislav Fedorov: Helmholtz-Zentrum Berlin
-- **[scXplain: Dissecting single-cell foundation models beyond predictive performance](https://openreview.net/forum?id=6VZCFj5zaS)**  
-  **Farnoush Rezaei Jafari**, Stephanie Hyland, Kenza Bouzid, Lorin Crawford, Daniel C. Castro  
-  Berlin: Farnoush Rezaei Jafari: Technische Universität Berlin
-
 ### Beyond Next Token Prediction: Diffusion and Flow Models for Next-Generation Decoding
 
 - **[SOL: Measuring Gaps between Text Distributions by Double Sliced Wasserstein Metrics](https://openreview.net/forum?id=f4hjd20QfW)**  
@@ -360,6 +360,12 @@ Known gaps:
   Ulysse Petit-Tichanné, **Nico Pelleriti**, **Max Zimmer**, **Sebastian Pokutta**  
   Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Max Zimmer: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
 
+### Managing Agents that Manage Agents: Workshop on Responsible Use of Meta-Agents that Build, Optimize, and Supervise Other Agents
+
+- **[Zero: A Meta-Agent for Mathematical Research](https://openreview.net/forum?id=xeNBqew8Jl)**  
+  **Nico Pelleriti**, Konrad Plato, **Max Zimmer**, **Sebastian Pokutta**  
+  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Max Zimmer: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
+
 ### MATH-AI: The 6th Workshop on Mathematical Reasoning and AI
 
 - **[AlphaDiana: A System for Evaluating Reasoning Agents](https://openreview.net/forum?id=YJFEscNgMe)** (Poster)  
@@ -369,23 +375,11 @@ Known gaps:
   **Nico Pelleriti**, Konrad Plato, Max Zimmer, **Sebastian Pokutta**  
   Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
 
-### Managing Agents that Manage Agents: Workshop on Responsible Use of Meta-Agents that Build, Optimize, and Supervise Other Agents
-
-- **[Zero: A Meta-Agent for Mathematical Research](https://openreview.net/forum?id=xeNBqew8Jl)**  
-  **Nico Pelleriti**, Konrad Plato, **Max Zimmer**, **Sebastian Pokutta**  
-  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Max Zimmer: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
-
 ### Reinforcement Learning for Experimental Sciences: Bridging the Simulation-to-Reality Gap
 
 - **[Reducing cross-sample prediction churn in scientific machine learning](https://openreview.net/forum?id=lSwOKOQDux)** (Poster)  
   **Gordan Prastalo**, Kevin Maik Jablonka  
   Berlin: Gordan Prastalo: Helmholtz-Zentrum Berlin
-
-### SLM-Agents: 1st Workshop on SLMs for Agentic Systems
-
-- **[E8 Lattice Key Quantization for Low-Bit KV-Cache Compression](https://openreview.net/forum?id=2QPitX2aBz)** (Poster)  
-  Sasho Nedelkoski, Alexander Acker, Soeren Becker, **Dominik Scheinert**, **Odej Kao**  
-  Berlin: Dominik Scheinert: Technische Universität Berlin; Odej Kao: Technische Universität Berlin
 
 ### Self-Evolving Diversity-Driven Search for Robust AI Systems
 
@@ -401,6 +395,12 @@ Known gaps:
 - **[Truncated automatic sparse differentiation for machine learning interatomic potentials](https://openreview.net/forum?id=Ec1UuQEzG6)**  
   Marcel F Langer, **Adrian Hill**, Michele Ceriotti  
   Berlin: Adrian Hill: Technische Universität Berlin
+
+### SLM-Agents: 1st Workshop on SLMs for Agentic Systems
+
+- **[E8 Lattice Key Quantization for Low-Bit KV-Cache Compression](https://openreview.net/forum?id=2QPitX2aBz)** (Poster)  
+  Sasho Nedelkoski, Alexander Acker, Soeren Becker, **Dominik Scheinert**, **Odej Kao**  
+  Berlin: Dominik Scheinert: Technische Universität Berlin; Odej Kao: Technische Universität Berlin
 
 ### SocialAgent: Second Workshop on Large Language Models for Social Reasoning and Simulation
 
@@ -465,17 +465,17 @@ Known gaps:
   **Nicolas Leins**, **Nico Pelleriti**, **Jana Gonnermann-Müller**, **Sebastian Pokutta**  
   Berlin: Nicolas Leins: Zuse Institute Berlin (ZIB); Nico Pelleriti: Zuse Institute Berlin (ZIB); Jana Gonnermann-Müller: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
 
-### Workshop on Towards Test-Time Continual Learning Agents
-
-- **[AlphaDiana: A System for Evaluating Reasoning Agents](https://openreview.net/forum?id=0ip2veRcDa)** (Poster)  
-  Zhanke Zhou, Zongze Li, Weikai Huang, Xuan Li, Chentao Cao, Xiao Feng, Xiangyu Lu, Jinbo Hu, Menghan Lu, Yi Xie, **Nico Pelleriti**, Shiyang Liu, Max Zimmer, Brando Miranda, Jiangchao Yao, Bo Liu, Sanmi Koyejo, **Sebastian Pokutta**, Bo Han  
-  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
-
 ### Workshop on the Linguistic Principles for Foundation Models
 
 - **[What Makes a Good Function Vector?](https://openreview.net/forum?id=AV5BgHyVdw)** (Spotlight)  
   **Minh An Pham**, **Anton Segeler**, **Thomas Wiegand**, **Wojciech Samek**, **Sebastian Lapuschkin**, **Patrick Kahardipraja**, **Reduan Achtibat**  
   Berlin: Minh An Pham: Fraunhofer Heinrich Hertz Institute (HHI); Anton Segeler: Fraunhofer Heinrich Hertz Institute (HHI); Thomas Wiegand: Fraunhofer Heinrich Hertz Institute (HHI) / Technische Universität Berlin; Wojciech Samek: Fraunhofer Heinrich Hertz Institute (HHI) / Technische Universität Berlin; Sebastian Lapuschkin: Fraunhofer Heinrich Hertz Institute (HHI); Patrick Kahardipraja: Fraunhofer Heinrich Hertz Institute (HHI); Reduan Achtibat: Fraunhofer Heinrich Hertz Institute (HHI)
+
+### Workshop on Towards Test-Time Continual Learning Agents
+
+- **[AlphaDiana: A System for Evaluating Reasoning Agents](https://openreview.net/forum?id=0ip2veRcDa)** (Poster)  
+  Zhanke Zhou, Zongze Li, Weikai Huang, Xuan Li, Chentao Cao, Xiao Feng, Xiangyu Lu, Jinbo Hu, Menghan Lu, Yi Xie, **Nico Pelleriti**, Shiyang Liu, Max Zimmer, Brando Miranda, Jiangchao Yao, Bo Liu, Sanmi Koyejo, **Sebastian Pokutta**, Bo Han  
+  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
 
 ### XAI4science: Knowledge Discovery and Trust through Interpretable Foundation Models
 

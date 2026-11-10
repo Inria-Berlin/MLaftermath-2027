@@ -72,15 +72,15 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[When Does Fine-Tuning Overtake Prompting? An Accuracy and Cost Analysis of Small Language Models on Narrow Tasks](https://openreview.net/forum?id=XFSEKRwBKO)** (Poster)  
   Urs Spiegelhalter, Jörg Franke, **Frank Hutter**
 
-#### SLM-Agents: 1st Workshop on SLMs for Agentic Systems
-
-- **[When Does Fine-Tuning Overtake Prompting? An Accuracy and Cost Analysis of Small Language Models on Narrow Tasks](https://openreview.net/forum?id=LNaAW9Fg9o)** (Poster)  
-  Urs Spiegelhalter, Jörg Franke, **Frank Hutter**
-
 #### Sim2Science: ML with Imperfect Scientific Models
 
 - **[Data Fusion with Causal Foundation Models](https://openreview.net/forum?id=nrkgCwG5qW)**  
   Yuche Gao, Arik Reuter, **Siyuan Guo**, Anish Dhir, Adrian Weller
+
+#### SLM-Agents: 1st Workshop on SLMs for Agentic Systems
+
+- **[When Does Fine-Tuning Overtake Prompting? An Accuracy and Cost Analysis of Small Language Models on Narrow Tasks](https://openreview.net/forum?id=LNaAW9Fg9o)** (Poster)  
+  Urs Spiegelhalter, Jörg Franke, **Frank Hutter**
 
 ## NVIDIA (420 people, 208 papers)
 
@@ -435,6 +435,11 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration](https://openreview.net/forum?id=qiuhtSaLSf)**  
   Chen-Yu Lin, Jing-Wen Chen, Hsueh-En Chang, Hung-An Chen, Sheng-Hsun Chang, Chi-Pin Huang, Fu-En Yang, **Min-Hung Chen**, Yi-Ting Chen, **Frank Wang**
 
+#### AgenticOS: Co-designing Systems and ML Foundations of an OS Layer for Agentic AI
+
+- **[→ How Much Skill Orchestration Can LLM Agents Compile Away? Execution-Grounded Specialization for Token-Efficient Skill Use](https://openreview.net/forum?id=MRhuQuGl5M)**  
+  **Jiayi Ni**, **Zac Wang**, **Alex Zhang**, **Zheng Liu**, **Roopa Prabhu**
+
 #### AI for Chip Design
 
 - **[AgentDSE: Reasoning-Augmented Architectural Design Space Exploration](https://openreview.net/forum?id=wQAs307UXS)** (Oral)  
@@ -461,11 +466,6 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 
 - **[Mixtures of Embedding Dimension Experts](https://openreview.net/forum?id=7O02rvopFl)** (Poster)  
   **George Retsinas**, **Patrick Judd**, **Chong Yu**, Mikail Khona, **Tijmen Blankevoort**, **Mohammad Shoeybi**, **Jeff Pool**
-
-#### AgenticOS: Co-designing Systems and ML Foundations of an OS Layer for Agentic AI
-
-- **[→ How Much Skill Orchestration Can LLM Agents Compile Away? Execution-Grounded Specialization for Token-Efficient Skill Use](https://openreview.net/forum?id=MRhuQuGl5M)**  
-  **Jiayi Ni**, **Zac Wang**, **Alex Zhang**, **Zheng Liu**, **Roopa Prabhu**
 
 #### Beyond Next Token Prediction: Diffusion and Flow Models for Next-Generation Decoding
 
@@ -504,15 +504,6 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[→ Necessary but Not Sufficient: Auditing Same-Answer Counterfactuals for Chain-of-Thought Faithfulness](https://openreview.net/forum?id=CnfYD03szl)**  
   **Shikhar Shiromani**, Leo Richter, Noah Siegel
 
-#### ML for Systems
-
-- **[Achieving High Performance in True On-Policy Reinforcement Learning for Mixture-of-Experts LLMs](https://openreview.net/forum?id=AbnCokvns1)** (Poster)  
-  Utkarsh Utkarsh, **Yigong Qin**, **Jinze Xue**, **Daniel Galvez**, **Aurelien Chartier**
-- **[PerfReasoning: How Well Do LLMs Reason on Hardware Performance?](https://openreview.net/forum?id=nWB6l8xCqP)** (Poster)  
-  **Dan Zhao**, **Karthikeyan Sankaralingam**, **Christos Kozyrakis**, **Qijing Huang**
-- **[Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context](https://openreview.net/forum?id=xbMfrKXaOq)** (Poster)  
-  **Alagappan Valliappan**
-
 #### Machine Learning for Simulations in Biology and Chemistry - The 2nd SIMBIOCHEM Workshop
 
 - **[Grand Canonical Generators](https://openreview.net/forum?id=NE8ct6M0Ps)**  
@@ -523,10 +514,24 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[Behavior Cue Reasoning: Monitorable Reasoning Improves Efficiency and Safety through Oversight](https://openreview.net/forum?id=SixMtJe2Jd)**  
   Christopher Z. Cui, Taylor Killian, **Prithviraj Ammanabrolu**
 
+#### ML for Systems
+
+- **[Achieving High Performance in True On-Policy Reinforcement Learning for Mixture-of-Experts LLMs](https://openreview.net/forum?id=AbnCokvns1)** (Poster)  
+  Utkarsh Utkarsh, **Yigong Qin**, **Jinze Xue**, **Daniel Galvez**, **Aurelien Chartier**
+- **[PerfReasoning: How Well Do LLMs Reason on Hardware Performance?](https://openreview.net/forum?id=nWB6l8xCqP)** (Poster)  
+  **Dan Zhao**, **Karthikeyan Sankaralingam**, **Christos Kozyrakis**, **Qijing Huang**
+- **[Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context](https://openreview.net/forum?id=xbMfrKXaOq)** (Poster)  
+  **Alagappan Valliappan**
+
 #### NEmo: Neuro-Symbolic Embodied Intelligence
 
 - **[OCC4M: Grounded Object-Centric Memory for Neuro-Symbolic Manipulation](https://openreview.net/forum?id=qnj6aamh1B)** (Poster)  
   Jack Benarroch Jedlicki, Tanguy Dieudonné, **Heng Yang**
+
+#### On-Device Intelligence: Foundation Models under Real-World Constraints
+
+- **[Disaggregated Quantization: Specializing LLM Prefill and Decode](https://openreview.net/forum?id=9RJBPgmGcU)** (Poster)  
+  **Andrei Panferov**, Maximilian Kleinegger, **Sweta Priyadarshi**, **Tijmen Blankevoort**, Dan Alistarh
 
 #### OPT 2026: Optimization for Machine Learning
 
@@ -536,11 +541,6 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
   Nishant Sharma, Ganesh Talluri, **Hiroki Naganuma**
 - **[Provable Edge-of-Stability for Adam on a One-Dimensional Quadratic](https://openreview.net/forum?id=KITny0JHvV)** (Poster)  
   Yiman Fong, **Heng Yang**
-
-#### On-Device Intelligence: Foundation Models under Real-World Constraints
-
-- **[Disaggregated Quantization: Specializing LLM Prefill and Decode](https://openreview.net/forum?id=9RJBPgmGcU)** (Poster)  
-  **Andrei Panferov**, Maximilian Kleinegger, **Sweta Priyadarshi**, **Tijmen Blankevoort**, Dan Alistarh
 
 #### PTA: From Pretrained Representations to Acting Agents -- Bridging Pretraining, Planning, and Test-Time Decision Making
 
