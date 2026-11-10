@@ -1,8 +1,8 @@
 # NeurIPS 2026 contributions with Berlin-affiliated authors
 
-Candidate list for the next MLaftermath edition, generated 2026-11-10 by the [neurips-berlin](https://github.com/ml-lab-htw/neurips-berlin) scraper: 106 papers and contributions with 167 Berlin-affiliated authors (in bold). A Berlin affiliation is listed when it was matched with high confidence or checked by hand; uncertain matches are left out until reviewed.
+Candidate list for the next MLaftermath edition, generated 2026-11-10 by the [neurips-berlin](https://github.com/ml-lab-htw/neurips-berlin) scraper: 107 papers and contributions with 168 Berlin-affiliated authors (in bold). A Berlin affiliation is listed when it was matched with high confidence or checked by hand; uncertain matches are left out until reviewed.
 
-Authors at the companies on the organizers' list (Prior Labs, NVIDIA, Aleph Alpha, DeepL, Helsing, Black Forest Labs) are in a separate list, [companies.md](companies.md): 473 people on 271 papers.
+Authors at the companies on the organizers' list (Prior Labs, NVIDIA, Aleph Alpha, DeepL, Helsing, Black Forest Labs) are in a separate list, [companies.md](companies.md): 511 people on 288 papers.
 
 Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenReview and the papers' first pages. This folder is not meant for the website: Jekyll skips folders starting with `_`. Being listed here says nothing about invitations.
 
@@ -12,9 +12,9 @@ Files: `papers.csv` (one row per paper, both lists), `berlin_authors.csv` and `c
 
 | Category | Papers collected | With Berlin authors | With company authors |
 |---|---:|---:|---:|
-| Workshop | 8209 | 53 | 71 |
-| Main Track | 7897 | 43 | 154 |
-| Evaluations & Datasets Track | 971 | 8 | 41 |
+| Workshop | 8209 | 53 | 76 |
+| Main Track | 7897 | 44 | 165 |
+| Evaluations & Datasets Track | 971 | 8 | 42 |
 | Position Paper Track | 137 | 0 | 3 |
 | Creative AI | 98 | 0 | 1 |
 | Journal Track | 87 | 1 | 1 |
@@ -30,7 +30,7 @@ Known gaps:
 
 ## Contents
 
-- [Main Track](#main-track) (43)
+- [Main Track](#main-track) (44)
 - [Evaluations & Datasets Track](#evaluations--datasets-track) (8)
 - [Journal Track](#journal-track) (1)
 - [Workshops](#workshops) (53)
@@ -141,6 +141,9 @@ Known gaps:
 - **[How Much of a Model Do We Need? Redundancy and Slimmability in Remote Sensing Foundation Models](https://openreview.net/forum?id=0IXZABr3Tf)** (Poster)  
   **Leonard Hackel**, **Begum Demir**, **Tom Burgert**  
   Berlin: Leonard Hackel: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Technische Universität Berlin; Begum Demir: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Technische Universität Berlin; Tom Burgert: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Technische Universität Berlin
+- **[Hyper Input Convex Neural Networks for Shape Constrained Learning and Optimal Transport](https://openreview.net/forum?id=G69BisYSHp)** (Poster)  
+  Shayan Hundrieser, Insung Kong, **Johannes Schmidt-Hieber**  
+  Berlin: Johannes Schmidt-Hieber: Humboldt-Universität zu Berlin / Weierstrass Institute for Applied Analysis and Stochastics (WIAS)
 - **[Learning-Augmented Online Scheduling with Parsimonious Preemption](https://openreview.net/forum?id=4DXp81vtxV)** (Poster)  
   Mugen Blue, Sungjin Im, **Alexander Lindermayr**  
   Berlin: Alexander Lindermayr: Technische Universität Berlin
