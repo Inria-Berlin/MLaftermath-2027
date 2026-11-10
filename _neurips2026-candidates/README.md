@@ -1,8 +1,8 @@
 # NeurIPS 2026 contributions with Berlin-affiliated authors
 
-Candidate list for the next MLaftermath edition, generated 2026-11-10 by the [neurips-berlin](https://github.com/ml-lab-htw/neurips-berlin) scraper: 107 papers and contributions with 168 Berlin-affiliated authors (in bold). A Berlin affiliation is listed when it was matched with high confidence or checked by hand; uncertain matches are left out until reviewed.
+Candidate list for the next MLaftermath edition, generated 2026-11-10 by the [neurips-berlin](https://github.com/ml-lab-htw/neurips-berlin) scraper: 108 papers and contributions with 157 Berlin-affiliated authors (in bold). A Berlin affiliation is listed when it was matched with high confidence or checked by hand; uncertain matches are left out until reviewed.
 
-Authors at the companies on the organizers' list (Prior Labs, NVIDIA, Aleph Alpha, DeepL, Helsing, Black Forest Labs) are in a separate list, [companies.md](companies.md): 511 people on 288 papers.
+Authors at the companies on the organizers' list (Prior Labs, NVIDIA, Aleph Alpha, DeepL, Helsing, Black Forest Labs) are in a separate list, [companies.md](companies.md): 477 people on 325 papers.
 
 Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenReview and the papers' first pages. This folder is not meant for the website: Jekyll skips folders starting with `_`. Being listed here says nothing about invitations.
 
@@ -12,9 +12,9 @@ Files: `papers.csv` (one row per paper, both lists), `berlin_authors.csv` and `c
 
 | Category | Papers collected | With Berlin authors | With company authors |
 |---|---:|---:|---:|
-| Workshop | 8209 | 53 | 76 |
-| Main Track | 7897 | 44 | 165 |
-| Evaluations & Datasets Track | 971 | 8 | 42 |
+| Workshop | 8209 | 54 | 90 |
+| Main Track | 7897 | 44 | 186 |
+| Evaluations & Datasets Track | 971 | 8 | 44 |
 | Position Paper Track | 137 | 0 | 3 |
 | Creative AI | 98 | 0 | 1 |
 | Journal Track | 87 | 1 | 1 |
@@ -33,7 +33,7 @@ Known gaps:
 - [Main Track](#main-track) (44)
 - [Evaluations & Datasets Track](#evaluations--datasets-track) (8)
 - [Journal Track](#journal-track) (1)
-- [Workshops](#workshops) (53)
+- [Workshops](#workshops) (54)
   - [2026 Workshop on SaTQuML: Secure and Trustworthy Quantum Machine Learning](#2026-workshop-on-satquml-secure-and-trustworthy-quantum-machine-learning) (1)
   - [Agentic Systems for Molecular Sciences](#agentic-systems-for-molecular-sciences) (4)
   - [AI Agents for Biomedical Imaging and Multimodal Clinical Data](#ai-agents-for-biomedical-imaging-and-multimodal-clinical-data) (1)
@@ -41,7 +41,7 @@ Known gaps:
   - [AI for Meta-Science: Scaling and Organizing Science in the Age of AI Scientists](#ai-for-meta-science-scaling-and-organizing-science-in-the-age-of-ai-scientists) (1)
   - [AI for Science: Verification in the Age of AI Scientists](#ai-for-science-verification-in-the-age-of-ai-scientists) (1)
   - [AI for Stochastic Dynamics: From Theoretical Foundations to Scientific Applications](#ai-for-stochastic-dynamics-from-theoretical-foundations-to-scientific-applications) (1)
-  - [AI4Mat-NeurIPS-2026: NeurIPS-2026 Workshop on AI for Accelerated Materials Design](#ai4mat-neurips-2026-neurips-2026-workshop-on-ai-for-accelerated-materials-design) (2)
+  - [AI4Mat-NeurIPS-2026: NeurIPS-2026 Workshop on AI for Accelerated Materials Design](#ai4mat-neurips-2026-neurips-2026-workshop-on-ai-for-accelerated-materials-design) (3)
   - [AIDaR: AI Data Readiness for Scientific Discovery](#aidar-ai-data-readiness-for-scientific-discovery) (2)
   - [ATTRIB: Workshop on Data Attribution and Provenance](#attrib-workshop-on-data-attribution-and-provenance) (2)
   - [AXIOM: Foundations of Efficient Deep Learning](#axiom-foundations-of-efficient-deep-learning) (1)
@@ -133,8 +133,8 @@ Known gaps:
   **Tillmann Rheude**, **Roland Eils**, **Benjamin Wild**  
   Berlin: Tillmann Rheude: Berlin Institute of Health at Charité (BIH) / Charité – Universitätsmedizin Berlin / Freie Universität Berlin; Roland Eils: Berlin Institute of Health at Charité (BIH) / Charité – Universitätsmedizin Berlin / Freie Universität Berlin; Benjamin Wild: Berlin Institute of Health at Charité (BIH) / Charité – Universitätsmedizin Berlin
 - **[Generalized Wasserstein Flow Matching: Transport Plans, Everywhere, All at Once](https://openreview.net/forum?id=VRSgjWCWsh)** (Poster)  
-  Moritz Piening, **Richard Duong**, **Gabriele Steidl**  
-  Berlin: Richard Duong: Technische Universität Berlin; Gabriele Steidl: Technische Universität Berlin
+  **Moritz Piening**, **Richard Duong**, **Gabriele Steidl**  
+  Berlin: Moritz Piening: Technische Universität Berlin; Richard Duong: Technische Universität Berlin; Gabriele Steidl: Technische Universität Berlin
 - **[Hodge Laplacian Quasi-Harmonic Flows for Option Discovery](https://openreview.net/forum?id=Ipo5Xh353j)** (Poster)  
   Andreas Theophilou, **Özgür Şimşek**  
   Berlin: Özgür Şimşek: Max Planck Institute for Human Development
@@ -299,6 +299,9 @@ Known gaps:
 - **[Openclatura: An Open and Inspectable IUPAC Naming Tool for Molecular Discovery Workflows](https://openreview.net/forum?id=BEbIrIUEWh)**  
   **Adrian Mirza**, Kevin Maik Jablonka, **Rostislav Fedorov**  
   Berlin: Adrian Mirza: Helmholtz-Zentrum Berlin; Rostislav Fedorov: Helmholtz-Zentrum Berlin
+- **[Out-of-the-Box Tabular Foundation Models for Bayesian Optimization in Materials Discovery](https://openreview.net/forum?id=y7ZFsfh2Uy)**  
+  Klemens Flöge, **Simon Bing**, Leo Grinsztajn, Eliott Kalfon, Lennart Purucker, Noah Hollmann, Frank Hutter  
+  Berlin: Simon Bing: Technische Universität Berlin
 - **[Reducing cross-sample prediction churn in scientific machine learning](https://openreview.net/forum?id=kPNui2SFvE)**  
   **Gordan Prastalo**, Kevin Maik Jablonka  
   Berlin: Gordan Prastalo: Helmholtz-Zentrum Berlin
@@ -363,11 +366,11 @@ Known gaps:
 ### Foundations of Agentic Systems Theory (FAST)
 
 - **[Cooperative Words, Selfish Actions: How Strategic Optimization Shapes LLMs' Interaction With Humans](https://openreview.net/forum?id=gB6cKQkoa4)** (Talk + poster)  
-  **Yaomin Jiang**, Yannik Keller, Levin Brinkmann, Tobias Werner, Seyed Ali Alhosseini, Michiel Bakker, Jean-François Bonnefon, Iyad Rahwan  
-  Berlin: Yaomin Jiang: Max Planck Institute for Human Development
+  **Yaomin Jiang**, Yannik Keller, **Levin Brinkmann**, Tobias Werner, Seyed Ali Alhosseini, Michiel Bakker, Jean-François Bonnefon, **Iyad Rahwan**  
+  Berlin: Yaomin Jiang: Max Planck Institute for Human Development; Levin Brinkmann: Max Planck Institute for Human Development; Iyad Rahwan: Max Planck Institute for Human Development
 - **[Group selection to evolve cooperative prompts in populations of LLM agents](https://openreview.net/forum?id=CWWabnG53R)** (Talk + poster)  
-  Luis Celiktemel, Edward Eichhorn, Levin Brinkmann, Robin Schimmelpfennig, Aron Vallinder, **Yaomin Jiang**, Edward Hughes, Iyad Rahwan  
-  Berlin: Yaomin Jiang: Max Planck Institute for Human Development
+  Luis Celiktemel, Edward Eichhorn, **Levin Brinkmann**, Robin Schimmelpfennig, Aron Vallinder, **Yaomin Jiang**, Edward Hughes, **Iyad Rahwan**  
+  Berlin: Levin Brinkmann: Max Planck Institute for Human Development; Yaomin Jiang: Max Planck Institute for Human Development; Iyad Rahwan: Max Planck Institute for Human Development
 
 ### Foundations of Language Model Security: Theory, Practice, and Fundamental Limits
 
@@ -379,7 +382,7 @@ Known gaps:
 
 - **[Learning the Coefficients of the Standard Volatility Forecaster](https://openreview.net/forum?id=O2TmO3wH22)**  
   Ulysse Petit-Tichanné, **Nico Pelleriti**, **Max Zimmer**, **Sebastian Pokutta**  
-  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Max Zimmer: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
+  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Max Zimmer: Technische Universität Berlin / Zuse Institute Berlin (ZIB); Sebastian Pokutta: Technische Universität Berlin / Zuse Institute Berlin (ZIB)
 
 ### Interpretability as a Science: Toward Rigorous Foundations for Understanding LLMs
 
@@ -391,16 +394,16 @@ Known gaps:
 
 - **[Zero: A Meta-Agent for Mathematical Research](https://openreview.net/forum?id=xeNBqew8Jl)**  
   **Nico Pelleriti**, Konrad Plato, **Max Zimmer**, **Sebastian Pokutta**  
-  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Max Zimmer: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
+  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Max Zimmer: Technische Universität Berlin / Zuse Institute Berlin (ZIB); Sebastian Pokutta: Technische Universität Berlin / Zuse Institute Berlin (ZIB)
 
 ### MATH-AI: The 6th Workshop on Mathematical Reasoning and AI
 
 - **[AlphaDiana: A System for Evaluating Reasoning Agents](https://openreview.net/forum?id=YJFEscNgMe)** (Poster)  
-  Zhanke Zhou, Zongze Li, Weikai Huang, Xuan Li, Chentao Cao, Xiao Feng, Xiangyu Lu, Jinbo Hu, Menghan Lu, Yi Xie, **Nico Pelleriti**, Shiyang Liu, Max Zimmer, Brando Miranda, Jiangchao Yao, Bo Liu, Sanmi Koyejo, **Sebastian Pokutta**, Bo Han  
-  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
+  Zhanke Zhou, Zongze Li, Weikai Huang, Xuan Li, Chentao Cao, Xiao Feng, Xiangyu Lu, Jinbo Hu, Menghan Lu, Yi Xie, **Nico Pelleriti**, Shiyang Liu, **Max Zimmer**, Brando Miranda, Jiangchao Yao, Bo Liu, Sanmi Koyejo, **Sebastian Pokutta**, Bo Han  
+  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Max Zimmer: Technische Universität Berlin / Zuse Institute Berlin (ZIB); Sebastian Pokutta: Technische Universität Berlin / Zuse Institute Berlin (ZIB)
 - **[Zero: A Meta-Agent for Mathematical Research](https://openreview.net/forum?id=yhKgvPCc2w)** (Poster)  
-  **Nico Pelleriti**, Konrad Plato, Max Zimmer, **Sebastian Pokutta**  
-  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
+  **Nico Pelleriti**, Konrad Plato, **Max Zimmer**, **Sebastian Pokutta**  
+  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Max Zimmer: Technische Universität Berlin / Zuse Institute Berlin (ZIB); Sebastian Pokutta: Technische Universität Berlin / Zuse Institute Berlin (ZIB)
 
 ### Reinforcement Learning for Experimental Sciences: Bridging the Simulation-to-Reality Gap
 
@@ -451,7 +454,7 @@ Known gaps:
   Berlin: Eduard Hübner: Technische Universität Berlin
 - **[CryptHarness: A Harness for Agent-Assisted Cryptanalytic Research](https://openreview.net/forum?id=veg4aAUG1o)**  
   **Nico Pelleriti**, Nicolai Kraus, Alexander May, **Sebastian Pokutta**  
-  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
+  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Technische Universität Berlin / Zuse Institute Berlin (ZIB)
 
 ### Transitioning from Pre-training to Post-training
 
@@ -465,11 +468,11 @@ Known gaps:
   **Eduard Hübner**, Nina Żukowska, Alexander Panfilov, Joschka Braun  
   Berlin: Eduard Hübner: Technische Universität Berlin
 - **[Cooperative Words, Selfish Actions: How Strategic Optimization Shapes LLMs' Interaction With Humans](https://openreview.net/forum?id=8ALoaV3h8Y)** (Poster)  
-  **Yaomin Jiang**, Yannik Keller, Levin Brinkmann, Tobias Werner, Seyed Ali Alhosseini, Michiel Bakker, Jean-François Bonnefon, Iyad Rahwan  
-  Berlin: Yaomin Jiang: Max Planck Institute for Human Development
+  **Yaomin Jiang**, Yannik Keller, **Levin Brinkmann**, Tobias Werner, Seyed Ali Alhosseini, Michiel Bakker, Jean-François Bonnefon, **Iyad Rahwan**  
+  Berlin: Yaomin Jiang: Max Planck Institute for Human Development; Levin Brinkmann: Max Planck Institute for Human Development; Iyad Rahwan: Max Planck Institute for Human Development
 - **[Helpful Allies, Better Liars: RL-Trained Agents Meet Human Social Deduction Experts](https://openreview.net/forum?id=b6qr4xLrOh)** (Oral)  
-  Yannik Keller, Levin Brinkmann, **Thomas F Eisenmann**, Iyad Rahwan  
-  Berlin: Thomas F Eisenmann: Max Planck Institute for Human Development
+  Yannik Keller, **Levin Brinkmann**, **Thomas F Eisenmann**, **Iyad Rahwan**  
+  Berlin: Levin Brinkmann: Max Planck Institute for Human Development; Thomas F Eisenmann: Max Planck Institute for Human Development; Iyad Rahwan: Max Planck Institute for Human Development
 - **[Stress-Testing RL-based Capability Elicitation with Randomized Underperformance](https://openreview.net/forum?id=BX4DQc8Ge2)** (Poster)  
   Nina Żukowska, **Eduard Hübner**, Alexander Panfilov, Joschka Braun  
   Berlin: Eduard Hübner: Technische Universität Berlin
@@ -490,7 +493,7 @@ Known gaps:
 
 - **[When Does LLM Orchestration Pay Off? A Controlled Evaluation of Accuracy, Resources, and Task Difficulty](https://openreview.net/forum?id=uYMdB2Jzk1)**  
   **Nicolas Leins**, **Nico Pelleriti**, **Jana Gonnermann-Müller**, **Sebastian Pokutta**  
-  Berlin: Nicolas Leins: Zuse Institute Berlin (ZIB); Nico Pelleriti: Zuse Institute Berlin (ZIB); Jana Gonnermann-Müller: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
+  Berlin: Nicolas Leins: Zuse Institute Berlin (ZIB); Nico Pelleriti: Zuse Institute Berlin (ZIB); Jana Gonnermann-Müller: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Technische Universität Berlin / Zuse Institute Berlin (ZIB)
 
 ### Workshop on the Linguistic Principles for Foundation Models
 
@@ -501,8 +504,8 @@ Known gaps:
 ### Workshop on Towards Test-Time Continual Learning Agents
 
 - **[AlphaDiana: A System for Evaluating Reasoning Agents](https://openreview.net/forum?id=0ip2veRcDa)** (Poster)  
-  Zhanke Zhou, Zongze Li, Weikai Huang, Xuan Li, Chentao Cao, Xiao Feng, Xiangyu Lu, Jinbo Hu, Menghan Lu, Yi Xie, **Nico Pelleriti**, Shiyang Liu, Max Zimmer, Brando Miranda, Jiangchao Yao, Bo Liu, Sanmi Koyejo, **Sebastian Pokutta**, Bo Han  
-  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
+  Zhanke Zhou, Zongze Li, Weikai Huang, Xuan Li, Chentao Cao, Xiao Feng, Xiangyu Lu, Jinbo Hu, Menghan Lu, Yi Xie, **Nico Pelleriti**, Shiyang Liu, **Max Zimmer**, Brando Miranda, Jiangchao Yao, Bo Liu, Sanmi Koyejo, **Sebastian Pokutta**, Bo Han  
+  Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Max Zimmer: Technische Universität Berlin / Zuse Institute Berlin (ZIB); Sebastian Pokutta: Technische Universität Berlin / Zuse Institute Berlin (ZIB)
 
 ### XAI4science: Knowledge Discovery and Trust through Interpretable Foundation Models
 
