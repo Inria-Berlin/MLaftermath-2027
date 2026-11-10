@@ -6,12 +6,12 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 
 ## Contents
 
-- [Prior Labs (16 people, 20 papers)](#prior-labs-16-people-20-papers)
-- [NVIDIA (420 people, 208 papers)](#nvidia-420-people-208-papers)
+- [Prior Labs (17 people, 24 papers)](#prior-labs-17-people-24-papers)
+- [NVIDIA (446 people, 238 papers)](#nvidia-446-people-238-papers)
 - [Aleph Alpha (9 people, 8 papers)](#aleph-alpha-9-people-8-papers)
 - [Black Forest Labs (1 person, 4 papers)](#black-forest-labs-1-person-4-papers)
 
-## Prior Labs (16 people, 20 papers)
+## Prior Labs (17 people, 24 papers)
 
 ### Main Track
 
@@ -19,6 +19,10 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
   **Alexander Reisach**, Antoine Chambaz, Gilles Blanchard, Sebastian Weichwald
 - **[Encoding RNA Topology into Synthetic Alignments for 3D Structure Prediction](https://openreview.net/forum?id=LCvUtLKdYo)** (Poster)  
   Jörg Franke, Iris K Tennie, Michael Uhl, Ryan Koksal, Dominika Matus, Dominik Scheuer, **Frank Hutter**, Rolf Backofen, Frederic Runge
+- **[From Uncertain Judgments to Calibrated Rankings: Conformal Elo Estimation for LLM Evaluation](https://openreview.net/forum?id=QRZ8c3QtOj)** (Poster)  
+  Bora Kargi, **David Salinas**
+- **[Strong Post-Training from Permissive, Reasoning-Dominant, Web-Scale Pretraining](https://openreview.net/forum?id=MUnBsYNzes)** (Poster)  
+  Harsh Raj, Ali Elganzory, Marianna Nezhurina, Victor May, Van Khue Nguyen, **David Salinas**, Huu Nguyen, Jenia Jitsev
 - **[SurvivalPFN: Amortizing Survival Prediction via In-Context Bayesian Inference](https://openreview.net/forum?id=bJ348fNOVg)** (Poster)  
   Shi-ang Qi, **Vahid Balazadeh Meresht**, Michael Cooper, Russell Greiner, Rahul Krishnan
 - **[TempoPFN: Synthetic Pre-training of Linear RNNs for Zero-shot Time Series Forecasting](https://openreview.net/forum?id=1GbECQvpNs)** (Poster)  
@@ -32,6 +36,8 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 
 ### Evaluations & Datasets Track
 
+- **[An Open-Source Training Dataset for Foundation Models for Black-box Optimization](https://openreview.net/forum?id=UOjM1q3o4A)** (Poster)  
+  Aaron Klein, Herilalaina Rakotoarison, Luca Thale-Bombien, **David Salinas**
 - **[Beyond IID: How General Are Tabular Foundation Models, Really?](https://openreview.net/forum?id=Mk0ohjszwO)** (Poster)  
   **Lennart Purucker**, **Andrej Tschalzev**, **Nick Erickson**, David Holzmüller, **Alan Arazi**, Alexander Pfefferle, Mustafa Tajjar, Gioia Blayer, Gael Varoquaux, **Frank Hutter**
 - **[fev-bench: A Realistic Benchmark for Time Series Forecasting](https://openreview.net/forum?id=JaKyxCJpoV)** (Poster)  
@@ -82,10 +88,17 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[When Does Fine-Tuning Overtake Prompting? An Accuracy and Cost Analysis of Small Language Models on Narrow Tasks](https://openreview.net/forum?id=LNaAW9Fg9o)** (Poster)  
   Urs Spiegelhalter, Jörg Franke, **Frank Hutter**
 
-## NVIDIA (420 people, 208 papers)
+#### Transitioning from Pre-training to Post-training
+
+- **[Permissive Data Is Not the Bottleneck: Front-Loading Reasoning Data Enables Strong Post-Training](https://openreview.net/forum?id=4ZcX1zVshb)**  
+  Ali Elganzory, Harsh Raj, Marianna Nezhurina, Victor May, Van Khue Nguyen, **David Salinas**, Huu Nguyen, Jenia Jitsev
+
+## NVIDIA (446 people, 238 papers)
 
 ### Main Track
 
+- **[$R^3$: 3D Reconstruction via Relative Regression](https://openreview.net/forum?id=FThHVwc2w4)** (Poster)  
+  Congrong Xu, Huachen Gao, Xingyu Chen, Yuliang Xiu, **Jun Gao**, Anpei Chen
 - **[Action Images: End-to-End Policy Learning via Multiview Video Generation](https://openreview.net/forum?id=dvcWzyuusE)** (Poster)  
   Haoyu Zhen, Zixian Gao, Qiao Sun, **yilin zhao**, Yuncong Yang, Yilun Du, Pengsheng Guo, Tsun-Hsuan Johnson Wang, Yi-Ling Qiao, Chuang Gan
 - **[Addressable Memory for Video World Models](https://openreview.net/forum?id=TCL6m7hsBg)** (Poster)  
@@ -101,15 +114,21 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[Analyzing and Guiding Zero-Shot Posterior Sampling in Diffusion Models](https://openreview.net/forum?id=uujn530GnO)** (Poster)  
   Roi Benita, **Miki Elad**, Joseph Keshet
 - **[Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos](https://openreview.net/forum?id=H4Lfwx7aXK)** (Poster)  
-  Sreyan Ghosh, **Arushi Goel**, Kaousheik Jayakumar, Lasha Koroshinadze, Nishit Anand, **Siddharth Gururani**, **Hanrong Ye**, Pritam Biswas, **Yuanhang Su**, **Ehsan Hosseini-Asl**, **Sang-gil Lee**, **Zhifeng Kong**, Jaehyeon Kim, **Sungwon Kim**, S Sakshi, Ramani Duraiswami, Dinesh Manocha, **Andrew Tao**, **Mohammad Shoeybi**, **Bryan Catanzaro**, **Ming-Yu Liu**, **Wei Ping**
+  **Sreyan Ghosh**, **Arushi Goel**, Kaousheik Jayakumar, Lasha Koroshinadze, Nishit Anand, **Siddharth Gururani**, **Hanrong Ye**, **Pritam Biswas**, **Yuanhang Su**, **Ehsan Hosseini-Asl**, **Sang-gil Lee**, **Zhifeng Kong**, **Jaehyeon Kim**, **Sungwon Kim**, S Sakshi, Ramani Duraiswami, Dinesh Manocha, **Andrew Tao**, **Mohammad Shoeybi**, **Bryan Catanzaro**, **Ming-Yu Liu**, **Wei Ping**
 - **[AVO: Agentic Variation Operators for Autonomous Evolutionary Search](https://openreview.net/forum?id=MFTuhhh6v1)** (Poster)  
-  **Terry Chen**, **Zhifan Ye**, Bing Xu, Zihao Ye, **Timmy Liu**, **Ali Hassani**, Tianqi Chen, **Andrew Kerr**, **Haicheng Wu**, **Vedaanta Agarwalla**, Fengzhe Zhou, Shangda Li, **Yang Xu**, **Yu-Jung Chen**, **Hanfeng Chen**, **Aditya Kane**, **Ronny Krashinsky**, **Ming-Yu Liu**, **Vinod Grover**, Luis Ceze, **Roger Bringmann**, **John Tran**, **Wei Liu**, **Feng Xie**, **Michael Lightstone**, **Humphrey Shi**
+  **Terry Chen**, **Zhifan Ye**, Bing Xu, Zihao Ye, **Timmy Liu**, **Ali Hassani**, **Tianqi Chen**, **Andrew Kerr**, **Haicheng Wu**, **Vedaanta Agarwalla**, Fengzhe Zhou, Shangda Li, **Yang Xu**, **Yu-Jung Chen**, **Hanfeng Chen**, **Aditya Kane**, **Ronny Krashinsky**, **Ming-Yu Liu**, **Vinod Grover**, Luis Ceze, **Roger Bringmann**, **John Tran**, **Wei Liu**, **Feng Xie**, **Michael Lightstone**, **Humphrey Shi**
+- **[Better Source, Better Flow: Learning Condition-Dependent Source Distribution for Flow Matching](https://openreview.net/forum?id=vtr94l6tFI)** (Poster)  
+  Junwan Kim, Jiho Park, Seonghu Jeon, **Seungryong Kim**
 - **[Beyond 3 Million Tokens: A Multi-Modal Foundation Model for Full-Resolution Heliophysics](https://openreview.net/forum?id=SPCgaExqxH)** (Poster)  
   Sujit Roy, Johannes Schmude, Ata A Asanjan, **Thorsten Kurth**, Rohit Lal, Kshitiz Mandal, Vishal Gaur, Harris Abdul Majid, Nikolaos Dionelis, Berkay Aydin, Himanshu Patil, Andres Munoz-Jaramillo, Campbell Watson, Juan Moreno, Manil Maskey, Rahul Ramachandran
+- **[Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction](https://openreview.net/forum?id=42dIxEhArH)** (Spotlight)  
+  Zhuofeng Li, Haoxiang Zhang, Cong Wei, Pan Lu, Ping Nie, Yuyang Bai, Shangbin Feng, Hangxiao Zhu, Ming Zhong, Yuyu Zhang, Jianwen Xie, **Yejin Choi**, James Zou, Jiawei Han, Wenhu Chen, Jimmy Lin, Dongfu Jiang, Yu Zhang
 - **[Block Sparse Flash Attention](https://openreview.net/forum?id=8GItn9bqi9)** (Poster)  
   Daniel Ohayon, Itay Lamprecht, Itay Hubara, Israel Cohen, **Daniel Soudry**, **Noam Elata**
 - **[Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning](https://openreview.net/forum?id=0evT0zV3xO)** (Poster)  
   Jiazheng Li, Chi-Hao Wu, **Yunze Liu**, Kaize Ding, Jundong Li, Chuxu Zhang
+- **[Bridging Structure and Language: Graph-Based Visual Reasoning for Autonomous Road Understanding](https://openreview.net/forum?id=XDFxPupil1)** (Poster)  
+  Lena Wild, Katie Luo, **Marco Pavone**
 - **[Coarse-to-Fine 3D MRI Reconstruction via Resolution-Agnostic Neural Operators](https://openreview.net/forum?id=WcGVLtalaf)** (Poster)  
   Jiayun (Peter) Wang, Ruibo Wang, Valentin Duruisseaux, Ram Daftari, Weijie Gan, Armeet Jatyani, **Boris Bonev**, Animashree Anandkumar
 - **[Colour me shocked: Exact Molecular Hessians from MLIPs in O(N) time using sparse differentiation!](https://openreview.net/forum?id=dIA3cMk8m7)** (Spotlight)  
@@ -118,14 +137,18 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
   Zhihan Yang, Wei Guo, Shuibai Zhang, Subham Sahoo, Yongxin Chen, **Arash Vahdat**, **Morteza Mardani**, John Thickstun
 - **[Contrastive Distribution Matching for Amortized Sequential Monte Carlo in Discrete Diffusion](https://openreview.net/forum?id=fGFv81kGOt)** (Poster)  
   Jaihoon Kim, Taehoon Yoon, Prin Phunyaphibarn, Seungjun Kim, **Morteza Mardani**, Minhyuk Sung
+- **[Controllable Dynamic 3D Shape Generation via 3D Trajectories and Text](https://openreview.net/forum?id=FxPg1mJLqX)** (Poster)  
+  Jaeyeong Kim, Inès H Kim, Jahyeok Koo, **Seungryong Kim**
 - **[Convergence of Near-Linear Width ReLU Networks with Unbalanced Initialization](https://openreview.net/forum?id=owJpOXaqDm)** (Poster)  
   Zhenghao Xu, Rachel Ward, Molei Tao, **Tuo Zhao**
+- **[Correpondence Alignment For Improved Virtual Try-On](https://openreview.net/forum?id=dTXhiKHb4G)** (Poster)  
+  Jiyoung Kim, Youngjin Shin, Siyoon Jin, Dahyun Chung, Jisu Nam, Tongmin Kim, JongJae Park, Hyeonwoo Kang, **Seungryong Kim**
 - **[Cross-Model KV Cache Transfer in LLM Families: A Closed-Form Linear Mapping for Prefill Reuse](https://openreview.net/forum?id=ImLkPKhbKo)** (Poster)  
   **Taekyung Heo**, **Rasoul Shafipour**, Ritchie Zhao, **Maximilian Golub**, Mohammad Mahdi Kamani, **Ritika Borkar**, **Makesh T Chandran**, **Pantea Zardoshti**, **Bita Darvish Rouhani**
 - **[Decoupling Conversational Dynamics in Full-Duplex Spoken Models through Reinforcement Learning](https://openreview.net/forum?id=Xv1Cz6907L)** (Poster)  
   Yuxin Li, Donghang Wu, Guan-Ting Lin, Hung-yi Lee, Chengwei Qin, CHEN CHEN, **Zhehuai Chen**
 - **[DeltaPrompts: Escaping the Zero-Delta Trap in Multimodal Distillation](https://openreview.net/forum?id=KyGX4aOkhc)** (Spotlight)  
-  Jaehun Jung, **Hyunwoo Kim**, Brandon Cui, Ximing Lu, **David Acuna**, **Prithviraj Ammanabrolu**, Yejin Choi
+  Jaehun Jung, **Hyunwoo Kim**, Brandon Cui, Ximing Lu, **David Acuna**, **Prithviraj Ammanabrolu**, **Yejin Choi**
 - **[DiLaDiff: Distilled Latent-augmented Diffusion for Language Modeling](https://openreview.net/forum?id=l1EueDpKBW)** (Poster)  
   **Jean-Marie Lemercier**, Tomas Geffner, **Morteza Mardani**, **Karsten Kreis**, **Arash Vahdat**, **Ante Jukić**
 - **[DiscoLoop: Looping Discrete Embeddings and Continuous Hidden States for Multi-hop Reasoning](https://openreview.net/forum?id=26R1JkrIyI)** (Poster)  
@@ -144,6 +167,8 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
   Travis Pence, Daisuke Yamada, Jiaqi Mo, Chanyoung Moon, **Karthikeyan Sankaralingam**, Vikas Singh
 - **[FASTER: Rethinking Real-Time Flow VLAs](https://openreview.net/forum?id=1G2AcEojJU)** (Poster)  
   Yuxiang Lu, Zhe Liu, **Xianzhe Fan**, Zhenya YANG, Jinghua Hou, Junyi Li, kaixin Ding, Hengshuang Zhao
+- **[Finite Resources False Discovery Rate Control on Structured Hypothesis Spaces](https://openreview.net/forum?id=Jg4c2SxLo1)** (Poster)  
+  Binyamin Perets, **Shie Mannor**
 - **[Flash-KMeans: Fast and Memory-Efficient Exact K-Means](https://openreview.net/forum?id=WVswOFOoe5)** (Poster)  
   Shuo Yang, Haocheng Xi, Yilong Zhao, Muyang Li, Xiaoze Fan, Jintao Zhang, **Han Cai**, **Yujun Lin**, Xiuyu Li, Kurt Keutzer, **Song Han**, Chenfeng Xu, Ion Stoica
 - **[Flow Map Denoisers: Traversing the Distortion-Perception Plane for Inverse Problems](https://openreview.net/forum?id=Ds12ClkyRZ)** (Poster)  
@@ -157,9 +182,11 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[Full-Duplex Speech-Motion Model for Dyadic Interaction](https://openreview.net/forum?id=Qisqy4uHjG)** (Poster)  
   **Koki Nagano**, Hongyu Liu, **Wookie Park**, **Tianye Li**, **Amrita Mazumdar**, **Christian Jacobsen**, **Shengze Wang**, **Michael Stengel**, **Ka Chun Cheung**, **Simon See**, **Shalini De Mello**
 - **[Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention](https://openreview.net/forum?id=zdcl2dDW9a)** (Poster)  
-  **Ali Hatamizadeh**, Yejin Choi, **Jan Kautz**
+  **Ali Hatamizadeh**, **Yejin Choi**, **Jan Kautz**
 - **[GenEvolve: Self-Evolving Image Generation Agents via Tool-Orchestrated Visual Experience Distillation](https://openreview.net/forum?id=1wiUEkM8XE)** (Poster)  
   Sixiang Chen, Zhaohu Xing, **Tian Ye**, Xinyu Geng, Yunlong lin, Jianyu Lai, Xuanhua He, Fuxiang Zhai, Jialin Gao, Lei Zhu
+- **[Geometry-Aware Representation Denoising for Multi-view Image Restoration and 3D Reconstruction](https://openreview.net/forum?id=LvYWFrtR8k)** (Poster)  
+  Jin Hyeon Kim, Jaeeun Lee, Claire Kim, Kyoungjin Oh, Paul H Cho, Jaewon Min, Yeji Choi, Jihye Park, Hyunhee Park, Park M Kyu, Hyungju Chun, **Seungryong Kim**
 - **[GeoTransolver: Learning Physics on Irregular Domains using Multi-scale Geometry Aware Physics Attention Transformer](https://openreview.net/forum?id=SDYGxHUdHE)** (Poster)  
   **Corey Adams**, **Rishikesh Ranade**, **Sheel Nidhan**, **Ram Cherukuri**, **Sanjay Choudhry**, **Mohammad Amin Nabian**, Deepak Akhare
 - **[Global Convergence in Deep Networks via the Second Law of Thermodynamics](https://openreview.net/forum?id=BkwQDuwKFM)** (Poster)  
@@ -177,15 +204,19 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[Heterogeneous Parallelism for Multimodal Large Language Model Training](https://openreview.net/forum?id=FpEMaMSLx7)** (Poster)  
   **Yashaswi Karnati**, **Kamran J Sadeghi**, **Akash Mehra**, **Li Ding**, **Ali Roshan Ghias**, **Pranav Prashant Thombre**, **Shifang Xu**, **Parth Mannan**, **Yu Yao**, Hao Wu, **Eric Harper**, **Ashwath Aithal**, **Nima Tajbakhsh**
 - **[Hide to Guide: Learning via Semantic Masking](https://openreview.net/forum?id=9hZDtNqGcn)** (Poster)  
-  Ruitao Liu, Qinghao Hu, Alex Hu, Yecheng Wu, Shang Yang, Luke J Huang, Zhuoyang Zhang, **Han Cai**, **Song Han**
+  Ruitao Liu, Qinghao Hu, Alex Hu, **Yecheng Wu**, Shang Yang, Luke J Huang, Zhuoyang Zhang, **Han Cai**, **Song Han**
 - **[Hide to See: Reasoning-prefix Masking for Visual-anchored Thinking in VLM Distillation](https://openreview.net/forum?id=p82pGutdyc)** (Poster)  
   Seonghoon Yu, Dongjun Nam, **Byung-Kwan Lee**, Jeany Son
 - **[HIST3R: Rectified State Decomposition from History for Streaming 3D Reconstruction](https://openreview.net/forum?id=1vnqEsI3RD)** (Poster)  
   Kenneth Yang, **Frank Wang**
+- **[How Deep Are Deep GPs, Really? A Sharp Threshold and a Non-Gaussian Limit for Compositional GPs](https://openreview.net/forum?id=F6fd33khoH)** (Poster)  
+  Mark Kozdoba, **Shie Mannor**
 - **[How to Instruct Your Robot: Dense Language Annotations Power Robot Policy Learning](https://openreview.net/forum?id=grxX3mAW7g)** (Poster)  
-  Bosung Kim, Ruiyi Wang, **David Acuna**, Jaehun Jung, **Alex Trevithick**, Brandon Cui, Yejin Choi, **Prithviraj Ammanabrolu**
+  Bosung Kim, Ruiyi Wang, **David Acuna**, Jaehun Jung, **Alex Trevithick**, Brandon Cui, **Yejin Choi**, **Prithviraj Ammanabrolu**
 - **[HuPER: A Human-Inspired Framework for Phonetic Perception](https://openreview.net/forum?id=Gq0mSArmWx)** (Poster)  
   Chenxu Guo, Jiachen Lian, Louis Liu, **Baihe Huang**, Shriyaa Narayanan, Bixing Wu, Zoe Ezzes, Jet Vonk, Zachary Miller, Cheol Jun Cho, Maria Luisa Gorno Tempini, Gopala Anumanchipalli
+- **[Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering](https://openreview.net/forum?id=masWIidGAx)** (Poster)  
+  Jaewoo Jung, Hyeonseo Yu, Honggyu An, Jisang Han, Mungyeom Kim, Minkyeong Jeon, Heeseong Shin, WonJun Moon, Federico Tombari, Daniel Barath, Marc Pollefeys, **Seungryong Kim**, Sunghwan Hong
 - **[In-Context Learning Can Help Vision Language Models Overcome Training Prior](https://openreview.net/forum?id=utoGFkBj7z)** (Poster)  
   Kun Wang, **Xindi Wu**, Sanghyuk Chun, Olga Russakovsky, Esin Tureci
 - **[Is Decentralized LLM Agent RL Robust to Heterogeneity? An Asymmetric Tale](https://openreview.net/forum?id=SsF2kYJfYC)** (Poster)  
@@ -195,9 +226,13 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[Large Discrete Policy: Advancing Explicit Behavior Modeling with Stochastic Iterative Scoring](https://openreview.net/forum?id=m3o019KH6Z)** (Poster)  
   Zhenxin Li, **Nadine Chang**, **Xinglong Sun**, **Jingde Chen**, Wenhao Yao, Zi Wang, **Maying Shen**, Yu-Gang Jiang, Zuxuan Wu, **Shiyi Lan**, **Jose M. Alvarez**
 - **[Learn from Your Mistakes: Self-Correcting Masked Diffusion Models](https://openreview.net/forum?id=D3SBs8maVe)** (Poster)  
-  Yair Schiff, **Omer Belhasin**, Roy Uziel, Guanghan Wang, Marianne Arriola, Gilad Turok, **Ran Zilberstein**, **Miki Elad**, Volodymyr Kuleshov
+  Yair Schiff, **Omer Belhasin**, **Roy Uziel**, Guanghan Wang, Marianne Arriola, Gilad Turok, **Ran Zilberstein**, **Miki Elad**, Volodymyr Kuleshov
 - **[Learnable Spectral Activations](https://openreview.net/forum?id=X6lgq8Q6sS)** (Poster)  
   Tamir Shor, **Or Litany**, Alex M Bronstein
+- **[Learning from Trials and Errors: Reflective Test-Time Planning for Embodied LLMs](https://openreview.net/forum?id=cyktRcY8D7)** (Poster)  
+  Yining Hong, Huang Huang, Manling Li, Fei-Fei Li, Leonidas Guibas, Jiajun Wu, **Yejin Choi**
+- **[Looped Diffusion Language Models](https://openreview.net/forum?id=UqgMsw7AZH)** (Poster)  
+  Sanghyun Lee, Chunsan Hong, **Seungryong Kim**, Jonghyun Lee, Jongho Park, Dongmin Park
 - **[Low-Rank Adaptation for Critic Learning in Off-Policy Reinforcement Learning](https://openreview.net/forum?id=c9yifwVOw7)** (Poster)  
   Yuan Zhuang, Yuexin Bian, Sihong He, Jie Feng, Qing Su, **Songyang Han**, Jonathan Petit, Shihao Ji, Yuanyuan Shi, Fei Miao
 - **[LPG: Balancing Efficiency and Policy Reasoning in Latent Policy Guardrails](https://openreview.net/forum?id=DQZZ9P0pXT)** (Poster)  
@@ -214,6 +249,8 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
   Jake Grigsby, Siddhant Agarwal, Yu Lei, Leonidas Varveropoulos, **Yuke Zhu**
 - **[More Value per Key: Asymmetric Sparse Attention for Faster LLM Decoding](https://openreview.net/forum?id=1xplSJVRNV)** (Poster)  
   **Noam Elata**, Itay Lamprecht, Mikey Shechter, Daniel Ohayon, Itay Hubara, **Daniel Soudry**
+- **[Motion Cues from Image-based Point Tracking for LiDAR Scene Flow Estimation](https://openreview.net/forum?id=V0fMDmaY6H)** (Poster)  
+  Youngdong Jang, Gyeongrok Oh, Jong Wook Kim, Hyunju Ryu, Hyung-gun Chi, SeungHyeon Kim, **Seungryong Kim**, Jonghyun Choi, Sangpil Kim
 - **[MvFFN: Multi-view Floor-Plan Feed-Forward Network for Unposed Wide-Baseline Panorama Layout Reconstruction](https://openreview.net/forum?id=Jj9p7hflDa)** (Poster)  
   Yuguang Li, Yichuan (Ethan) Deng, Zixuan Liu, **Ivaylo Boyadzhiev**, Xiuyuan Wu, Xinyu Zou, Linda Shapiro, Alex Colburn
 - **[Nahual: A Sequence Model for Language and Atoms](https://openreview.net/forum?id=H8Gx6rCmHV)** (Poster)  
@@ -232,12 +269,16 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
   Adrien Aguila-Multner, Olivier Beaumont, Lionel Eyraud-Dubois, **Julia Gusak**
 - **[Pacing Branch Parallelism in LLM Serving](https://openreview.net/forum?id=s3hkn23fkN)** (Poster)  
   Swapnil Gandhi, **Siva Kumar Sastry Hari**, **Bill Dally**, **Christos Kozyrakis**
+- **[Pareto Preference Optimization for Structure- and Stability-Aware RNA Inverse Folding](https://openreview.net/forum?id=ZEneX95jqf)** (Poster)  
+  Minghao Sun, Hanqun Cao, Zhou Zhang, Chen Wei, Liang Wang, Tianrui Jia, ZHIYUAN LIU, Tianfan Fu, Robert Tang, **Yejin Choi**, Pheng-Ann Heng, Fang Wu, Yang Zhang
 - **[Perceive, Interact, Reason: Building Tool-Augmented Visual Agents for Spatial Reasoning](https://openreview.net/forum?id=BlPie2QVxk)** (Poster)  
   Changye Li, Meng Lu, YI WU, **Ligeng Zhu**
 - **[PhyProbe: Rethinking Physical Consistency Evaluation in Generated Videos](https://openreview.net/forum?id=pcRAi8J0Ss)** (Poster)  
-  Max KU, **Jiaojiao Fan**, **Zekun Hao**, Francesco Ferroni, Heng Wang, Wenhu Chen, **Ming-Yu Liu**, **Prithvijit Chattopadhyay**
+  Max KU, **Jiaojiao Fan**, **Zekun Hao**, **Francesco Ferroni**, **Heng Wang**, Wenhu Chen, **Ming-Yu Liu**, **Prithvijit Chattopadhyay**
 - **[PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion](https://openreview.net/forum?id=tkGw4mDy71)** (Poster)  
-  Yifan Lu, **Qi Wu**, Jay Zhangjie Wu, Zian Wang, Huan Ling, Sanja Fidler, Xuanchi Ren
+  Yifan Lu, **Qi Wu**, Jay Zhangjie Wu, Zian Wang, Huan Ling, **Sanja Fidler**, Xuanchi Ren
+- **[PithTrain: A Compact and Agent-Native MoE Training System](https://openreview.net/forum?id=wjzJcWZZaM)** (Poster)  
+  Ruihang Lai, Hao Kang, Haozhan Tang, Akaash Raghunathan Parthasarathy, Zichun Yu, **Junru Shao**, Todd Mowry, Chenyan Xiong, **Tianqi Chen**
 - **[PixelDiT2: Representation-Grounded Pixel Diffusion Transformers](https://openreview.net/forum?id=5P4vAdvfAy)** (Poster)  
   Yongsheng Yu, **Wei Xiong**, **Yichen Sheng**, **Shiqiu Liu**, Jiebo Luo
 - **[Point Clustering Encoders](https://openreview.net/forum?id=A1CTIB6NLz)** (Poster)  
@@ -246,6 +287,8 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
   Bardienus Duisterhof, Kaifeng Zhang, Adam Hung, **Bowen Wen**, **Stan Birchfield**, Yunzhu Li, Deva Ramanan, Jeffrey Ichnowski
 - **[Positional Encoding Is All You Need For Scalable Equivariance Constraint Relaxation](https://openreview.net/forum?id=cYC8wdYHgB)** (Poster)  
   Hagay Michaeli, **Haggai Maron**, **Daniel Soudry**
+- **[Pretext Reasoning: Scaling the Building Blocks of Interleaved Multimodal Reasoning](https://openreview.net/forum?id=zhyLVCaMI0)** (Poster)  
+  Jiawei Gu, Linjie Li, Yiming Liu, Yunzhuo Hao, Zhichao Peng, Huichen Wang, Guanzheng Chen, Luxin Xu, Xinyu Zhang, Li Luo, Disen Lan, Zican Hu, Mingyang Song, David Valente, Alex Jinpeng Wang, Yafu Li, Ganqu Cui, Zhengyuan Yang, Michael Shieh, **Yejin Choi**, Ranjay Krishna, Yu Cheng
 - **[Progressive Residual Warmup for Language Model Pretraining](https://openreview.net/forum?id=aoiSdieuFb)** (Poster)  
   Tianhao Chen, Xin Xu, Lu Yin, Hao CHEN, Yang Wang, **Shizhe Diao**, Can Yang
 - **[RAG in a Trenchcoat: When Minimal Memory Is Enough for Agentic Systems, and When It Isn’t](https://openreview.net/forum?id=aUiKcKSG3t)** (Poster)  
@@ -256,6 +299,8 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
   Hee Seung Hwang, **Xindi Wu**, Sanghyuk Chun, Zhiwei Deng, Olga Russakovsky
 - **[RelationVGGT : Visual Geometry Transformers for 3D Spatial Relation Segmentation](https://openreview.net/forum?id=sV4QSsSN7r)** (Poster)  
   Minsu Kim, **Jaesung Choe**, Jiwoo Lee, **Frank Wang**, Seon Joo Kim
+- **[Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence](https://openreview.net/forum?id=362kWB8SSp)** (Poster)  
+  Siyoon Jin, Dahyun Chung, Honggyu An, Sangbeom Lim, Wonjin Nam, Jaewoo Jung, WonJun Moon, **Seungryong Kim**
 - **[Response Time Enhances Alignment with Heterogeneous Preferences](https://openreview.net/forum?id=lSacVQkH6p)** (Poster)  
   Federico Echenique, Alireza Fallah, **Baihe Huang**, Michael Jordan
 - **[Rethinking Training Targets, Architectures and Data Quality for Universal Speech Enhancement](https://openreview.net/forum?id=RvRtBJQkGQ)** (Poster)  
@@ -281,7 +326,7 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[Sparse Koopman Autoencoders Identify Local Dynamical Regimes in Multibasin Systems](https://openreview.net/forum?id=oenYjKFj4D)** (Poster)  
   Aidan Li, Uday Kiran Reddy Tadipatri, **Mahan Fathi**, Sarath Chandar, Ross Goroshin
 - **[SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning](https://openreview.net/forum?id=tHCYfFr3sR)** (Poster)  
-  Seokju Cho, **Ryo Hachiuma**, **Abhishek Badki**, **Hang Su**, **Byung-Kwan Lee**, **Chan Hee Song**, **Sifei Liu**, **Subhashree Radhakrishnan**, Seungryong Kim, **Frank Wang**, **Min-Hung Chen**
+  Seokju Cho, **Ryo Hachiuma**, **Abhishek Badki**, **Hang Su**, **Byung-Kwan Lee**, **Chan Hee Song**, **Sifei Liu**, **Subhashree Radhakrishnan**, **Seungryong Kim**, **Frank Wang**, **Min-Hung Chen**
 - **[Speeding up Log-Sum-Exp: Kernel Fusion at the Memory Wall, Integer Arithmetic at the Compute Wall](https://openreview.net/forum?id=Xz4CvAU4eg)** (Poster)  
   Lingyun Yao, Martin Andraud, **Niki Loppi**, **Andrea Pilzer**, Anji Liu, Guy Van den Broeck, Martin Trapp
 - **[Split-RL: Local Conflict Resolution in Reinforcement Learning](https://openreview.net/forum?id=RUIN0YgMdQ)** (Poster)  
@@ -297,17 +342,21 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[TACT-KV: Tri-Axis Cosine Transform for Compressing Volumetric KV Caches in Medical VLMs](https://openreview.net/forum?id=OU6bVNsqd3)** (Poster)  
   Chongyu Qu, Ritchie Zhao, **Yufan He**, **Dong Yang**, Zhengyi Lu, Junchao Zhu, Tianyuan Yao, Juming Xiong, Junlin Guo, Yanfan Zhu, Yuechen Yang, **Daguang Xu**, Bennett Landman, **Yucheng Tang**, Yuankai Huo
 - **[Test-time Scaling of Diffusions with Flow Maps](https://openreview.net/forum?id=EtFrLaqiA4)** (Poster)  
-  Amirmojtaba Sabour, Michael Albergo, Carles Domingo i Enrich, Nicholas Boffi, Sanja Fidler, **Karsten Kreis**, Eric Vanden-Eijnden
+  Amirmojtaba Sabour, Michael Albergo, Carles Domingo i Enrich, Nicholas Boffi, **Sanja Fidler**, **Karsten Kreis**, Eric Vanden-Eijnden
 - **[The $1/\mathcal{W}$ Law: Context Length is the Dominant Energy Lever in LLM Inference Fleets](https://openreview.net/forum?id=eQmwjbxAVA)** (Poster)  
   Huamin Chen, Xunzhuo Liu, Yuhan Liu, Junchen Jiang, Steve Liu, **Chenxu Niu**, Bowei He
 - **[The Key to Going Linear: Analysis-Driven Transformer Linearization](https://openreview.net/forum?id=bekG7rxPRG)** (Poster)  
   Anna Kuzina, Paul Whatmough, **Babak Ehteshami Bejnordi**
+- **[The risk of KV cache compression](https://openreview.net/forum?id=IxNf37GZip)** (Poster)  
+  Lukas Haverbeck, Carmen Amo Alonso, Andres Posada Moreno, Sebastian Trimpe, **Marco Pavone**
 - **[The Value of Being Wrong: Self-Mined Visual In-Context Learning from Errors](https://openreview.net/forum?id=dVu1u4QgAp)** (Spotlight)  
   **Shu Zhao**, **TAN YU**
 - **[They Can See It but not Say It: Iterative Self Knowledge Re-expression in Visual Reasoning Relative Pose Identification](https://openreview.net/forum?id=b4HCV0e0V8)** (Oral)  
   MENGYU WANG, Ken Deng, **Yftah Ziser**, Shay Cohen, Tiejun Ma
 - **[Towards Anytime-Valid Statistical Watermarking](https://openreview.net/forum?id=xbsjNKS4Iq)** (Poster)  
   **Baihe Huang**, Eric Xu, Kannan Ramchandran, **Jiantao Jiao**, Michael Jordan
+- **[TrackCraft3R: Repurposing Video Diffusion Transformers for Dense 3D Tracking](https://openreview.net/forum?id=46qtUc033H)** (Poster)  
+  Jisu Nam, Jahyeok Koo, Soowon Son, Jaewoo Jung, Honggyu An, Junhwa Hur, **Seungryong Kim**
 - **[Training Transformers for KV-Cache Compressibility](https://openreview.net/forum?id=igMG5UgMAj)** (Poster)  
   Yoav Gelberg, Yam Eitan, Michael Bronstein, Yarin Gal, **Haggai Maron**
 - **[Tree-Structured Synergy of Large Language Models and Bayesian Optimization for Efficient CASH](https://openreview.net/forum?id=gmg28fq6Rq)** (Poster)  
@@ -322,6 +371,8 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
   **Jesse Bettencourt**, **Xindi Wu**, **Matan Atzmon**, **James Lucas**, **Jonathan Lorraine**
 - **[VICO: Visual Environments Co-Evolving for Vision-Language Model Reasoning](https://openreview.net/forum?id=bWQSO81TTf)** (Poster)  
   Meng Lu, **Ligeng Zhu**, Olivia Xiao, Yuchen Zhuang, Zihan Wang, Kuncheng Wu, Bangya Liu, Yu Wang, Charles Fleming, Wenqi Shi, Xuan Wang
+- **[VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Tokens](https://openreview.net/forum?id=vxJjCRu1Km)** (Poster)  
+  Sangbeom Lim, Seoung Wug Oh, Heeji Yoon, **Seungryong Kim**, Joon-Young Lee
 - **[VideoMDM: Towards 3D Human Motion Generation From 2D Supervision](https://openreview.net/forum?id=EYB8rootIX)** (Poster)  
   Amir Mann, Gal Michael Harari, Merav keidar, **Or Litany**
 - **[When Are Teacher Tokens Reliable? Position-Weighted On-Policy Self-Distillation for Reasoning](https://openreview.net/forum?id=wPMiko3NFZ)** (Poster)  
@@ -360,11 +411,11 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[MetaPI: Constructing Prompt Injection Benchmarks from Any Agent Benchmarks](https://openreview.net/forum?id=blZs0Iw2sU)** (Poster)  
   Peiran Wang, **Chong Xiang**, Wenjie Qu, Ying Li, Jiaheng Zhang, **G. Edward Suh**, Yuan Tian
 - **[MLLMs Fail to Refuse when Using Tools Agentically](https://openreview.net/forum?id=TWx6yxM6Gd)** (Poster)  
-  Rikiya Takehi, **Ryo Hachiuma**, **Shaona Ghosh**, Dan Zhao, **Frank Wang**, **Yusuke Hirota**
+  Rikiya Takehi, **Ryo Hachiuma**, **Shaona Ghosh**, **Dan Zhao**, **Frank Wang**, **Yusuke Hirota**
 - **[MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI](https://openreview.net/forum?id=EaF7FneBfZ)** (Oral)  
   Bohan Lyu, Yucheng Yang, Siqiao Huang, Jiaru Zhang, Qixin Xu, Xinghan Li, Xinyang Han, Yicheng Zhang, Huaqing Zhang, Runhan Huang, Kaicheng Yang, Zitao Chen, Wentao Guo, Junlin Yang, Xinyue Ai, Wenhao Chai, Yadi Cao, Ziran Yang, Kun Wang, Dapeng Jiang, Huan-ang Gao, Shange Tang, Chengshuai Shi, Simon Du, Max Simchowitz, **Jiantao Jiao**, Dawn Song, Chi Jin
 - **[MMOU: A Massive Multi-Task Omni Understanding and Reasoning Benchmark for Long and Complex Real-World Videos](https://openreview.net/forum?id=i7REhEhgfx)** (Poster)  
-  **Arushi Goel**, Sreyan Ghosh, Vatsal Agarwal, Nishit Anand, Kaousheik Jayakumar, Lasha Koroshinadze, **Yao Xu**, **Katie Lyons**, **James Case**, **Siddharth Gururani**, **Karan Sapra**, **Kevin Shih**, Abhinav Shrivastava, Ramani Duraiswami, Dinesh Manocha, **Andrew Tao**, **Bryan Catanzaro**, **Mohammad Shoeybi**, **Wei Ping**
+  **Arushi Goel**, **Sreyan Ghosh**, Vatsal Agarwal, Nishit Anand, Kaousheik Jayakumar, Lasha Koroshinadze, **Yao Xu**, **Katie Lyons**, **James Case**, **Siddharth Gururani**, **Karan Sapra**, **Kevin Shih**, Abhinav Shrivastava, Ramani Duraiswami, Dinesh Manocha, **Andrew Tao**, **Bryan Catanzaro**, **Mohammad Shoeybi**, **Wei Ping**
 - **[MulTaBench: Benchmarking Multimodal Tabular Learning with Text and Image](https://openreview.net/forum?id=yOd4AxlEbb)** (Spotlight)  
   Alan Arazi, Eilam Shapira, Shoham Grunblat, Mor Ventura, **Elad Hoffer**, Gioia Blayer, **David Holzmüller**, Lennart Purucker, Gael Varoquaux, Frank Hutter, Roi Reichart
 - **[On Data Engineering for Scaling LLM Terminal Capabilities](https://openreview.net/forum?id=aliXJTzh8Z)** (Poster)  
@@ -372,15 +423,17 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[OpenMedReason: Scientific Reasoning Supervision for Medical Vision–Language Models](https://openreview.net/forum?id=AL9VdVsiIT)** (Poster)  
   Negin Baghbanzadeh, Pritam Sarkar, Michael Colacci, Abeer Badawi, **Adibvafa Fallahpour**, Arash Afkanpour, Leonid Sigal, Ali Etemad, Elham Dolatabadi
 - **[Physical AI Smart Spaces: A Large-Scale Benchmark for Multi-Camera 3D Perception in Smart Spaces](https://openreview.net/forum?id=SdCUsRcgQI)** (Poster)  
-  **Yuxing Wang**, **Yizhou Wang**, **Anqi Li**, **Shuo Wang**, **Sameer Satish Pusegaonkar**, **Haoquan Liang**, **Jiajun Li**, **Shenxin Jiang**, **Jianhe Yuan**, **Shangru Li**, Tongwei Dai, **Zihao Chen**, David Anastasiu, **Zheng (Thomas) Tang**, **Sujit Biswas**, **Xunlei Wu**
+  **Yuxing Wang**, **Yizhou Wang**, **Anqi Li**, **Shuo Wang**, **Sameer Satish Pusegaonkar**, **Haoquan Liang**, **Jiajun Li**, **Shenxin Jiang**, **Jianhe Yuan**, **Shangru Li**, **Tongwei Dai**, **Zihao Chen**, David Anastasiu, **Zheng (Thomas) Tang**, **Sujit Biswas**, **Xunlei Wu**
 - **[Precise Debugging Benchmark: Is Your Model Debugging or Regenerating?](https://openreview.net/forum?id=qBuOrD12Mv)** (Poster)  
   Miaosen Chai, Wang Bill Zhu, Shangshang Wang, Yejia Liu, **Song Bian**, Honghua Dong, Willie Neiswanger, Robin Jia
+- **[RoboWits: Unexpected Challenges for Robotic Creative Problem Solving](https://openreview.net/forum?id=0dyy3qodV0)** (Poster)  
+  Chunru Lin, Hongxin Zhang, Fenghao Yu, Zhehuan Chen, Tom Griffiths, **Yejin Choi**, David Held, Chuang Gan
 - **[SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks](https://openreview.net/forum?id=Utmr8dZbrt)** (Poster)  
   Xiangyi Li, Yimin Liu, Wenbo Chen, Shenghan Zheng, Yifeng He, Xiaokun Chen, Bingran You, Haotian Shen, Yubo Li, Kyoung Whan Choe, Binxu Li, Shuyi Wang, Chris Kong, Xinyi Liu, Jiankai Sun, Runhui Wang, Xuanqing Liu, Jiachen Li, Xin Lan, Yuanli Wang, Xuandong Zhao, Yueqian Lin, Wengao Ye, Junwei He, Di Wang, Roey B Chaim, Songlin Li, Hanwen Xing, Yue Zhang, Yipeng Gao, Yijiang Li, Ze Ma, Liqiang Jing, Qunhong Zeng, Tianyu Wang, Kaixin Li, **Yiqi Xue**, Zonglin Di, Yizhuo He, Yuchen Tian, Yixuan Gao, Hejia Geng, Bo Chen, Litong Liu, Sikai Cheng, Zelin Tan, Jiajun Bao, Junwei Zhou, Shuaicheng Tong, Shuwen Xu, Penghao Jiang, Terry Yue Zhuo, Tinghan Ye, Chujun Tao, Qi Qi, Miao Li, Longtai Liao, Zhikang Dong, Chang Shi, Steven Dillmann, Han-chung Lee
 - **[SOL-ExecBench: Speed-of-Light Benchmarking for Real-World GPU Kernels Against Hardware Limits](https://openreview.net/forum?id=TE8B0CjNsw)** (Poster)  
-  **Edward C Lin**, **Sahil Modi**, **Siva Kumar Sastry Hari**, **Qijing Huang**, **Zhifan Ye**, **Nestor Y. Qin**, Fengzhe Zhou, **Yuan Zhang**, Jingquan Wang, **Sana Damani**, **Dheeraj Peri**, Ouye Xie, **Aditya Kane**, **Michael behar**, Rishabh Mehta, **Vartika Singh**, **Vikram Sharma Mailthody**, **Terry Chen**, Zihao Ye, **Hanfeng Chen**, Tianqi Chen, **Vinod Grover**, **Wei Chen**, **Wei Liu**, Eric Chung, Luis Ceze, **Roger Bringmann**, **Michael Lightstone**, **Christos Kozyrakis**, **Humphrey Shi**
+  **Edward C Lin**, **Sahil Modi**, **Siva Kumar Sastry Hari**, **Qijing Huang**, **Zhifan Ye**, **Nestor Y. Qin**, Fengzhe Zhou, **Yuan Zhang**, Jingquan Wang, **Sana Damani**, **Dheeraj Peri**, Ouye Xie, **Aditya Kane**, **Michael behar**, Rishabh Mehta, **Vartika Singh**, **Vikram Sharma Mailthody**, **Terry Chen**, Zihao Ye, **Hanfeng Chen**, **Tianqi Chen**, **Vinod Grover**, **Wei Chen**, **Wei Liu**, Eric Chung, Luis Ceze, **Roger Bringmann**, **Michael Lightstone**, **Christos Kozyrakis**, **Humphrey Shi**
 - **[Spatial-IQ: Deconstructing Spatial Intelligence via Hierarchical Capability Tests](https://openreview.net/forum?id=YQbS1ro7SL)** (Poster)  
-  Patrick Rim, **Tom Long**, **Ekta Prashnani**, **Ruth Rosenholtz**, **Ben Boudaoud**, **Peter Xenopoulos**, Alex Wong, **Joohwan Kim**, **Jae-Hyun Jung**
+  **Patrick Rim**, **Tom Long**, **Ekta Prashnani**, **Ruth Rosenholtz**, **Ben Boudaoud**, **Peter Xenopoulos**, Alex Wong, **Joohwan Kim**, **Jae-Hyun Jung**
 - **[STRABLE: Benchmarking Tabular Machine Learning with Strings](https://openreview.net/forum?id=RIVxz1UYR5)** (Poster)  
   Gioia Blayer, Myung Jun Kim, Félix Lefebvre, Lennart Purucker, Alan Arazi, Eilam Shapira, Roi Reichart, Frank Hutter, Marine Le Morvan, **David Holzmüller**, Gael Varoquaux
 - **[SynDORBench: Evaluating LVLM Perceptual Robustness Under Physically Constrained Visibility Conditions](https://openreview.net/forum?id=eJbJ4kjbfA)** (Poster)  
@@ -393,6 +446,8 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
   Zhe Ye, Hantao Lou, Yuechun Sun, Peiyang Song, Zhengxu Yan, Timothe Kasriel, Qingyang Zhang, Kaiyu Yang, Soonho Kong, **Jingxuan He**, Dawn Song
 - **[VeriWorld: A Verifiable Visual SWE-Bench for Spatial Reasoning in 3D Environments](https://openreview.net/forum?id=lLZbYegc4T)** (Poster)  
   Yan Zheng, **Anthony Peng**, XUYAO LIANG, Xiaoyan Cong, Nuo Chen, Bangya Liu, Zihan Wang, Wenyan Cong, Zhiwen Fan, Zhangyang &quot;Atlas&quot, Wang
+- **[VistaQA: Benchmarking Joint Visual Question Answering and Pixel-Level Evidence](https://openreview.net/forum?id=26ADcnvSjf)** (Poster)  
+  Mozhgan Nasr Azadani, Yimu Wang, Yongpeng Zhu, Lihong Chen, Milan Ganai, Sean Sedwards, **Marco Pavone**, Krzysztof Czarnecki
 - **[Who&When Pro: Can LLMs Really Attribute Failures in AI Agents?](https://openreview.net/forum?id=ot6saieu5V)** (Poster)  
   Jiale Liu, Huajun Xi, **Shaokun Zhang**, Yifan Zeng, Tianwei Yue, Chi Wang, Jian Kang, Huazheng Wang, Qingyun Wu
 
@@ -433,7 +488,14 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 #### 8th Robot Learning Workshop: Is Physical AI Going Zero-Shot?
 
 - **[PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration](https://openreview.net/forum?id=qiuhtSaLSf)**  
-  Chen-Yu Lin, Jing-Wen Chen, Hsueh-En Chang, Hung-An Chen, Sheng-Hsun Chang, Chi-Pin Huang, Fu-En Yang, **Min-Hung Chen**, Yi-Ting Chen, **Frank Wang**
+  Chen-Yu Lin, Jing-Wen Chen, Hsueh-En Chang, Hung-An Chen, Sheng-Hsun Chang, **Chi-Pin Huang**, **Fu-En Yang**, **Min-Hung Chen**, Yi-Ting Chen, **Frank Wang**
+
+#### Agentic AI Benchmark and Application for Enterprise Tasks
+
+- **[Desktop-Delta Bench: Do Computer-Use Models Understand Desktop GUI Transitions?](https://openreview.net/forum?id=LHFMmyE1gF)**  
+  **Abhishek Pillai**, **Samir kumar nayak**, **Yuan Chen**
+- **[Staying on Task: Testing the Foundations of Long-Horizon Agent Reliability](https://openreview.net/forum?id=zjLn4oU8nT)**  
+  **Jeffrey Willette**, **Krishna Puvvada**, Boris Ginsburg
 
 #### AgenticOS: Co-designing Systems and ML Foundations of an OS Layer for Agentic AI
 
@@ -472,7 +534,12 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[Error-Aware Flexible-Length Diffusion Language Model](https://openreview.net/forum?id=WJ2SG7rDQz)**  
   Davyd Naveriani, **Albert Zeyer**, Ralf Schlüter, Hermann Ney
 - **[Subliminal Clocks: Latent Time Modelling in Diffusion Language Models](https://openreview.net/forum?id=gwUXy1qMW1)**  
-  Maximo Rulli, Thomas V Fontanari, Simone Petruzzi, Federico Alvetreti, Giorgio Strano, Donato Crisostomi, Giorgos Nikolaou, Tommaso Mencattini, **Andrea Santilli**, Emanuele Rodolà, Simone Scardapane, Alessio Devoto
+  Maximo Rulli, Thomas V Fontanari, Simone Petruzzi, Federico Alvetreti, Giorgio Strano, Donato Crisostomi, Giorgos Nikolaou, Tommaso Mencattini, **Andrea Santilli**, Emanuele Rodolà, Simone Scardapane, **Alessio Devoto**
+
+#### Bridging Optimal Transport, Learning and Structured Data: Toward Geometric Distributional Learning
+
+- **[Beyond the Map: Characterizing Representational Differences in Flow Maps](https://openreview.net/forum?id=CoZRa79x5G)**  
+  Maximo Rulli, Artem Frenk, **Alessio Devoto**, Simone Scardapane, Carles Domingo i Enrich
 
 #### Continual World Models
 
@@ -483,6 +550,11 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 
 - **[From Interface to Inference: Eliciting Any-Order Inference from Any-Order Models](https://openreview.net/forum?id=qDYEnLu77i)** (Poster)  
   Seunggeun Kim, Jaeyeon Kim, Taekyun Lee, Yuyuan Chen, **Yilun Du**, Sham Kakade, Sitan Chen
+
+#### Grounded and Faithful Vision-Language Models for Real-World Deployment
+
+- **[SCOPE: Sparse-Context On-Policy Distillation for Efficient Vision Language Models](https://openreview.net/forum?id=DgAQhcJRgH)**  
+  Ahmadreza Jeddi, Enming Zhang, Hakki Karaimer, Jasper Gerigk, Mozhgan Nasr Azadani, Jiayun Luo, Minh Le, Gholamali Aminian, Hugo Buurmeijer, Igor Gilitschenski, Kosta Derpanis, **Marco Pavone**, Babak Taati
 
 #### Human-AI Coevolution: Measuring Human-Agent Teams in the Agentic Era
 
@@ -564,7 +636,7 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 - **[PointZero: 3D Point Track Completion as a Spatiotemporal Pre-Training Objective](https://openreview.net/forum?id=bEgE4FUocU)**  
   Bardienus Duisterhof, Kaifeng Zhang, Adam Hung, **Bowen Wen**, **Stan Birchfield**, Yunzhu Li, Deva Ramanan, Jeffrey Ichnowski
 - **[ThinkWorld: World Imagination Reinforces Embodied Action Reasoning](https://openreview.net/forum?id=ANLlobj7a9)**  
-  Chaehyun Kim, Chi-Pin Huang, Jisoo Kim, **Min-Hung Chen**, **Frank Wang**, **Seungryong Kim**, Fu-En Yang
+  Chaehyun Kim, **Chi-Pin Huang**, Jisoo Kim, **Min-Hung Chen**, **Frank Wang**, **Seungryong Kim**, **Fu-En Yang**
 
 #### Sim2Science: ML with Imperfect Scientific Models
 
@@ -589,8 +661,17 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 
 #### The Third Workshop on Long-Context Foundation Models
 
+- **[Efficient Long-Context Continued Pretraining with Delta Attention](https://openreview.net/forum?id=qNLB0eITfo)**  
+  Harsh Singh, **Jeffrey Willette**, **Krishna Puvvada**
 - **[ICM-Bench: Person-Level Identity Reasoning in Multimodal Agents with Long-Term Memory](https://openreview.net/forum?id=s8l0s9i0oj)**  
   Shidu Ren, **Yunze Liu**, Xing Liu, Chi-Hao Wu, Enmin Zhou, Junxiao Shen
+- **[Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context](https://openreview.net/forum?id=sY88rETxzY)**  
+  **Alagappan Valliappan**
+
+#### Transitioning from Pre-training to Post-training
+
+- **[Training with Delta Attention for Long-Context Adaptation](https://openreview.net/forum?id=kLAz7Q8rO7)**  
+  Harsh Singh, **Jeffrey Willette**, **Krishna Puvvada**
 
 #### Trustworthy AI for Good (AI4GOOD) Workshop
 
@@ -616,6 +697,11 @@ Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenRe
 
 - **[Hydra-0: Action Flow for Generalist World Modeling and Control](https://openreview.net/forum?id=iZph0vjsV1)** (Poster)  
   **Hongyu Li**, **Bowen Wen**, **Xinghao Zhu**, **Yixuan Wang**, **Yilun Du**, Yunzhu Li, George Konidaris, **Stan Birchfield**, **Soha Pouya**, **Chenran Li**, **Yan Chang**
+
+#### XAI4science: Knowledge Discovery and Trust through Interpretable Foundation Models
+
+- **[Beyond the Map: Characterizing Representational Differences in Flow Maps](https://openreview.net/forum?id=jy1AN4OMJS)**  
+  Maximo Rulli, Artem Frenk, **Alessio Devoto**, Simone Scardapane, Carles Domingo i Enrich
 
 ### Creative AI
 
