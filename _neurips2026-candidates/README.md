@@ -219,7 +219,7 @@ Known gaps:
 
 - **[BIAS-ID: A Framework for Analyzing Transformation Biases in AI-Generated Image Detectors](https://openreview.net/forum?id=GIewosR83I)** (Poster)  
   Jonas Ricker, Asja Fischer, **Erwin Quiring**  
-  Berlin: Erwin Quiring: Berlin (unlisted institution)
+  Berlin: Erwin Quiring: fbeta, Berlin
 - **[Chem-PerturBridge: a harmonized compendium of small molecule perturbation transcriptomic effects](https://openreview.net/forum?id=UFv9oyIlVq)** (Poster)  
   Artur Szałata, **Olga Novitskaia**, Maiia Shulman, Matthew Mella, Altynbek Zhubanchaliyev, Fabian Theis  
   Berlin: Olga Novitskaia: Freie Universität Berlin
@@ -252,7 +252,7 @@ Known gaps:
 
 - **[Looking Under the Streetlight: Evaluation in Generative Molecular Dynamics](https://openreview.net/forum?id=6iB0w2UeaM)** (Poster)  
   Simon Olsson, **Frank Noe**, Grant Rotskoff, Kresten Lindorff-Larsen  
-  Berlin: Frank Noe: Berlin (unlisted institution)
+  Berlin: Frank Noe: Microsoft Research Berlin
 
 ## Journal Track
 
@@ -482,7 +482,7 @@ Known gaps:
 
 - **[E8 Lattice Key Quantization for Low-Bit KV-Cache Compression](https://openreview.net/forum?id=2QPitX2aBz)** (Poster)  
   **Sasho Nedelkoski**, **Alexander Acker**, **Soeren Becker**, **Dominik Scheinert**, **Odej Kao**  
-  Berlin: Sasho Nedelkoski: Technische Universität Berlin; Alexander Acker: Berlin (unlisted institution); Soeren Becker: Berlin (unlisted institution); Dominik Scheinert: Technische Universität Berlin; Odej Kao: Technische Universität Berlin
+  Berlin: Sasho Nedelkoski: Technische Universität Berlin; Alexander Acker: logsight.ai, Berlin; Soeren Becker: logsight.ai, Berlin; Dominik Scheinert: Technische Universität Berlin; Odej Kao: Technische Universität Berlin
 
 ### SocialAgent: Second Workshop on Large Language Models for Social Reasoning and Simulation
 
@@ -536,7 +536,7 @@ Known gaps:
   Berlin: Tobias Labarta: Fraunhofer Heinrich Hertz Institute (HHI); Frederik Pahde: Fraunhofer Heinrich Hertz Institute (HHI); Maximilian Dreyer: Fraunhofer Heinrich Hertz Institute (HHI); Sebastian Lapuschkin: Fraunhofer Heinrich Hertz Institute (HHI); Wojciech Samek: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Fraunhofer Heinrich Hertz Institute (HHI) / Technische Universität Berlin
 - **[When Tool Calls Succeed but Workflows Fail: Anomalies at the Agent-Tool Boundary](https://openreview.net/forum?id=5oH0v1T8k9)**  
   **Artem Trofimov**, Boris Novikov  
-  Berlin: Artem Trofimov: Berlin (unlisted institution)
+  Berlin: Artem Trofimov: AVIV Group, Berlin
 
 ### Workshop on Evaluation of Interactive Agents
 
