@@ -1,6 +1,6 @@
 # NeurIPS 2026 contributions with Berlin-affiliated authors
 
-Candidate list for the next MLaftermath edition, generated 2026-11-10 by the [neurips-berlin](https://github.com/ml-lab-htw/neurips-berlin) scraper: 108 papers and contributions with 157 Berlin-affiliated authors (in bold). A Berlin affiliation is listed when it was matched with high confidence or checked by hand; uncertain matches are left out until reviewed.
+Candidate list for the next MLaftermath edition, generated 2026-11-11 by the [neurips-berlin](https://github.com/ml-lab-htw/neurips-berlin) scraper: 122 papers and contributions with 165 Berlin-affiliated authors (in bold). A Berlin affiliation is listed when it was matched with high confidence or checked by hand; uncertain matches are left out until reviewed.
 
 Authors at the companies on the organizers' list (Prior Labs, NVIDIA, Aleph Alpha, DeepL, Helsing, Black Forest Labs) are in a separate list, [companies.md](companies.md): 477 people on 325 papers.
 
@@ -12,10 +12,10 @@ Files: `papers.csv` (one row per paper, both lists), `berlin_authors.csv` and `c
 
 | Category | Papers collected | With Berlin authors | With company authors |
 |---|---:|---:|---:|
-| Workshop | 8209 | 54 | 90 |
-| Main Track | 7897 | 44 | 186 |
-| Evaluations & Datasets Track | 971 | 8 | 44 |
-| Position Paper Track | 137 | 0 | 3 |
+| Workshop | 8209 | 64 | 90 |
+| Main Track | 7897 | 45 | 186 |
+| Evaluations & Datasets Track | 971 | 10 | 44 |
+| Position Paper Track | 137 | 1 | 3 |
 | Creative AI | 98 | 0 | 1 |
 | Journal Track | 87 | 1 | 1 |
 | Education Track | 52 | 0 | 0 |
@@ -30,30 +30,34 @@ Known gaps:
 
 ## Contents
 
-- [Main Track](#main-track) (44)
-- [Evaluations & Datasets Track](#evaluations--datasets-track) (8)
+- [Main Track](#main-track) (45)
+- [Evaluations & Datasets Track](#evaluations--datasets-track) (10)
+- [Position Paper Track](#position-paper-track) (1)
 - [Journal Track](#journal-track) (1)
-- [Workshops](#workshops) (54)
+- [Workshops](#workshops) (64)
   - [2026 Workshop on SaTQuML: Secure and Trustworthy Quantum Machine Learning](#2026-workshop-on-satquml-secure-and-trustworthy-quantum-machine-learning) (1)
+  - [8th Robot Learning Workshop: Is Physical AI Going Zero-Shot?](#8th-robot-learning-workshop-is-physical-ai-going-zero-shot) (1)
   - [Agentic Systems for Molecular Sciences](#agentic-systems-for-molecular-sciences) (4)
   - [AI Agents for Biomedical Imaging and Multimodal Clinical Data](#ai-agents-for-biomedical-imaging-and-multimodal-clinical-data) (1)
   - [AI for Drug Discovery: Bridging the Translation Gap](#ai-for-drug-discovery-bridging-the-translation-gap) (1)
   - [AI for Meta-Science: Scaling and Organizing Science in the Age of AI Scientists](#ai-for-meta-science-scaling-and-organizing-science-in-the-age-of-ai-scientists) (1)
   - [AI for Science: Verification in the Age of AI Scientists](#ai-for-science-verification-in-the-age-of-ai-scientists) (1)
   - [AI for Stochastic Dynamics: From Theoretical Foundations to Scientific Applications](#ai-for-stochastic-dynamics-from-theoretical-foundations-to-scientific-applications) (1)
-  - [AI4Mat-NeurIPS-2026: NeurIPS-2026 Workshop on AI for Accelerated Materials Design](#ai4mat-neurips-2026-neurips-2026-workshop-on-ai-for-accelerated-materials-design) (3)
+  - [AI4Mat-NeurIPS-2026: NeurIPS-2026 Workshop on AI for Accelerated Materials Design](#ai4mat-neurips-2026-neurips-2026-workshop-on-ai-for-accelerated-materials-design) (4)
   - [AIDaR: AI Data Readiness for Scientific Discovery](#aidar-ai-data-readiness-for-scientific-discovery) (2)
-  - [ATTRIB: Workshop on Data Attribution and Provenance](#attrib-workshop-on-data-attribution-and-provenance) (2)
+  - [ATTRIB: Workshop on Data Attribution and Provenance](#attrib-workshop-on-data-attribution-and-provenance) (3)
   - [AXIOM: Foundations of Efficient Deep Learning](#axiom-foundations-of-efficient-deep-learning) (1)
   - [Beyond Next Token Prediction: Diffusion and Flow Models for Next-Generation Decoding](#beyond-next-token-prediction-diffusion-and-flow-models-for-next-generation-decoding) (1)
-  - [Bridging Optimal Transport, Learning and Structured Data: Toward Geometric Distributional Learning](#bridging-optimal-transport-learning-and-structured-data-toward-geometric-distributional-learning) (1)
+  - [Beyond Private Training: The New Landscape of AI Privacy](#beyond-private-training-the-new-landscape-of-ai-privacy) (1)
+  - [Bridging Optimal Transport, Learning and Structured Data: Toward Geometric Distributional Learning](#bridging-optimal-transport-learning-and-structured-data-toward-geometric-distributional-learning) (2)
   - [Can We Trust AI Evaluation? Robustness, Causality, and Risk in Modern AI Assessment](#can-we-trust-ai-evaluation-robustness-causality-and-risk-in-modern-ai-assessment) (2)
   - [Continual Learning in the Era of Foundation Models and Embodied Agents](#continual-learning-in-the-era-of-foundation-models-and-embodied-agents) (1)
   - [Foundation Models for the Brain and Body](#foundation-models-for-the-brain-and-body) (1)
-  - [Foundations of Agentic Systems Theory (FAST)](#foundations-of-agentic-systems-theory-fast) (2)
+  - [Foundations of Agentic Systems Theory (FAST)](#foundations-of-agentic-systems-theory-fast) (3)
   - [Foundations of Language Model Security: Theory, Practice, and Fundamental Limits](#foundations-of-language-model-security-theory-practice-and-fundamental-limits) (1)
   - [Generalization for Time Series in Tight Settings: Latency, Inference, Memory, prIvacy and Sustainability (TS-LIMITS)](#generalization-for-time-series-in-tight-settings-latency-inference-memory-privacy-and-sustainability-ts-limits) (1)
-  - [Interpretability as a Science: Toward Rigorous Foundations for Understanding LLMs](#interpretability-as-a-science-toward-rigorous-foundations-for-understanding-llms) (1)
+  - [Interpretability as a Science: Toward Rigorous Foundations for Understanding LLMs](#interpretability-as-a-science-toward-rigorous-foundations-for-understanding-llms) (2)
+  - [Machine Learning for Simulations in Biology and Chemistry - The 2nd SIMBIOCHEM Workshop](#machine-learning-for-simulations-in-biology-and-chemistry---the-2nd-simbiochem-workshop) (1)
   - [Managing Agents that Manage Agents: Workshop on Responsible Use of Meta-Agents that Build, Optimize, and Supervise Other Agents](#managing-agents-that-manage-agents-workshop-on-responsible-use-of-meta-agents-that-build-optimize-and-supervise-other-agents) (1)
   - [MATH-AI: The 6th Workshop on Mathematical Reasoning and AI](#math-ai-the-6th-workshop-on-mathematical-reasoning-and-ai) (2)
   - [Reinforcement Learning for Experimental Sciences: Bridging the Simulation-to-Reality Gap](#reinforcement-learning-for-experimental-sciences-bridging-the-simulation-to-reality-gap) (1)
@@ -65,12 +69,12 @@ Known gaps:
   - [The Third Workshop on Agents in the Wild: Safety, Security, and Beyond](#the-third-workshop-on-agents-in-the-wild-safety-security-and-beyond) (2)
   - [Transitioning from Pre-training to Post-training](#transitioning-from-pre-training-to-post-training) (1)
   - [Trustworthy AI for Good (AI4GOOD) Workshop](#trustworthy-ai-for-good-ai4good-workshop) (4)
-  - [Who Verifies the Agents? Toward Reliable Agent Development](#who-verifies-the-agents-toward-reliable-agent-development) (1)
+  - [Who Verifies the Agents? Toward Reliable Agent Development](#who-verifies-the-agents-toward-reliable-agent-development) (2)
   - [Workshop on Evaluation of Interactive Agents](#workshop-on-evaluation-of-interactive-agents) (1)
   - [Workshop on Resource-Aware Agentic AI](#workshop-on-resource-aware-agentic-ai) (1)
   - [Workshop on the Linguistic Principles for Foundation Models](#workshop-on-the-linguistic-principles-for-foundation-models) (1)
   - [Workshop on Towards Test-Time Continual Learning Agents](#workshop-on-towards-test-time-continual-learning-agents) (1)
-  - [XAI4science: Knowledge Discovery and Trust through Interpretable Foundation Models](#xai4science-knowledge-discovery-and-trust-through-interpretable-foundation-models) (2)
+  - [XAI4science: Knowledge Discovery and Trust through Interpretable Foundation Models](#xai4science-knowledge-discovery-and-trust-through-interpretable-foundation-models) (3)
 - [Reproducibility Track (MLRC)](#reproducibility-track-mlrc) (1)
 
 ## Main Track
@@ -81,6 +85,9 @@ Known gaps:
 - **[A Trust Region Approach for Learning Schrödinger Bridges](https://openreview.net/forum?id=pXZ4KjVpoE)** (Poster)  
   Takeshi Koshizuka, Denis Blessing, **Max Zimmer**, **Sebastian Pokutta**, **Lorenz Richter**  
   Berlin: Max Zimmer: Technische Universität Berlin / Zuse Institute Berlin (ZIB); Sebastian Pokutta: Technische Universität Berlin / Zuse Institute Berlin (ZIB); Lorenz Richter: Zuse Institute Berlin (ZIB) / dida Datenschmiede
+- **[AI-Mediated Communication Can Steer Collective Opinion](https://openreview.net/forum?id=2jvTv6EcKS)** (Poster)  
+  Stratis Tsirtsis, Kai Rawal, Chris Russell, **Brent Mittelstadt**, Sandra Wachter  
+  Berlin: Brent Mittelstadt: Weizenbaum Institute
 - **[Approximation Guarantees for Robust Aggregation in Federated Learning](https://openreview.net/forum?id=4ySjO4QTTH)** (Poster)  
   Mélanie Cambus, **Darya Melnyk**, **Tijana Milentijević**, **Stefan Schmid**  
   Berlin: Darya Melnyk: Technische Universität Berlin; Tijana Milentijević: Technische Universität Berlin; Stefan Schmid: Technische Universität Berlin / Weizenbaum Institute
@@ -163,8 +170,8 @@ Known gaps:
   Matthias Vigl, Nikita Pond, Nicole Hartman, Jackson Barr, **Daniel H Guest**, Alexander Froch, Michele D&#x27;Andrea, Dmitrii Kobylianskii, Daniel Murnane, Robert Les, Sébastien Rettie, Diptaparna Biswas, Michael Kagan, Lukas Heinrich  
   Berlin: Daniel H Guest: Humboldt-Universität zu Berlin
 - **[Optimal algorithmic complexity of inference in quantum kernel methods](https://openreview.net/forum?id=dMzQUanLcb)** (Poster)  
-  **Elies Gil-Fuster**, Seongwook Shin, **Sofiene Jerbi**, **Jens Eisert**, **Maximilian J Kramer**  
-  Berlin: Elies Gil-Fuster: Fraunhofer Heinrich Hertz Institute (HHI); Sofiene Jerbi: Helmholtz-Zentrum Berlin; Jens Eisert: Fraunhofer Heinrich Hertz Institute (HHI) / Helmholtz-Zentrum Berlin; Maximilian J Kramer: Freie Universität Berlin
+  **Elies Gil-Fuster**, **Seongwook Shin**, **Sofiene Jerbi**, **Jens Eisert**, **Maximilian J Kramer**  
+  Berlin: Elies Gil-Fuster: Fraunhofer Heinrich Hertz Institute (HHI) / Freie Universität Berlin; Seongwook Shin: Freie Universität Berlin; Sofiene Jerbi: Freie Universität Berlin / Helmholtz-Zentrum Berlin; Jens Eisert: Fraunhofer Heinrich Hertz Institute (HHI) / Freie Universität Berlin / Helmholtz-Zentrum Berlin; Maximilian J Kramer: Freie Universität Berlin
 - **[Process-conditioned Pretraining with Topographic Spatial Retrieval for Large EEG Models](https://openreview.net/forum?id=wrHWTrf4Uv)** (Poster)  
   Yi Ding, Muyun Jiang, Weibang Jiang, Shuailei Zhang, XINLIANG ZHOU, Chenyu Liu, **Shanglin Li**, Yong Li, Cuntai Guan  
   Berlin: Shanglin Li: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Technische Universität Berlin
@@ -210,6 +217,9 @@ Known gaps:
 
 ## Evaluations & Datasets Track
 
+- **[BIAS-ID: A Framework for Analyzing Transformation Biases in AI-Generated Image Detectors](https://openreview.net/forum?id=GIewosR83I)** (Poster)  
+  Jonas Ricker, Asja Fischer, **Erwin Quiring**  
+  Berlin: Erwin Quiring: Berlin (unlisted institution)
 - **[Chem-PerturBridge: a harmonized compendium of small molecule perturbation transcriptomic effects](https://openreview.net/forum?id=UFv9oyIlVq)** (Poster)  
   Artur Szałata, **Olga Novitskaia**, Maiia Shulman, Matthew Mella, Altynbek Zhubanchaliyev, Fabian Theis  
   Berlin: Olga Novitskaia: Freie Universität Berlin
@@ -219,6 +229,9 @@ Known gaps:
 - **[EVALUATION CARDS: An Interpretive Layer for AI Evaluation Reporting](https://openreview.net/forum?id=jGvGY7wh7Q)** (Spotlight)  
   Avijit Ghosh, Anka Reuel-Lamparth, Wm. Matthew Kennedy, Jenny Chim, Yilin Huang, Srishti Yadav, Anastassia Kornilova, Damian Stachura, Kevin Klyman, Jennifer Mickel, Felix Friedrich, Max Lamparth, **Jan Batzner**, Anoop Mishra, Jeba Sania, Eliya Habba, Nathan Heath, Shalaleh Rismani, Usman Gohar, Andrea Loehr, David Manheim, Ruchira Dhar, **Sree Harsha Nelaturu**, Aarush Sinha, Leshem Choshen, Yixiong Hao, Yanan Long, Andrew Tran, Drishti Sharma, Ishan Khire, Amit Saha, Subramanyam Sahoo, Michael Hardy, Michael A. Riegler, Kabir Manghnani, Michelle Lin, Nancy Jiang, Asaf Yehudai, Nuno Moniz, Yacine Jernite, Zeerak Talat, Stella Biderman, Mubashara Akhtar, Jessica Ji, Aris Hofmann, Mykel J Kochenderfer, Sanmi Koyejo, Irene Solaiman  
   Berlin: Jan Batzner: Weizenbaum Institute; Sree Harsha Nelaturu: Zuse Institute Berlin (ZIB)
+- **[M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents](https://openreview.net/forum?id=EgGGRnoyTG)** (Poster)  
+  Hannes Ill, Rafi Al Attrach, Rajna Fani, Ahram Han, Ryohei Yamamoto, **Marlene L Moerig**, Dukyong Yoon, Leo Anthony Celi  
+  Berlin: Marlene L Moerig: Charité – Universitätsmedizin Berlin
 - **[OpenMHC: Accelerating the Science of Wearable Foundation Models](https://openreview.net/forum?id=UOTXGszV0L)** (Poster)  
   Narayan Schuetz, Yuze Bai, Lianggang Pan, **Edgar Eggert**, Favour Nerrise, Juan Delgado-SanMartin, Max Rosenblattl, Milana Gurbanova, Mohammad Asadi, Anders Johnson, Paul Schmiedmayer, Dennis Wang, Allan Lawrie, Daniel S Kim, Xin Liu, Akshay Paruchuri, Ehsan Adeli, Euan Ashley, Kelly W Zhang  
   Berlin: Edgar Eggert: Charité – Universitätsmedizin Berlin
@@ -235,6 +248,12 @@ Known gaps:
   Félix Chavelli, **Arik Ermshaus**, **Patrick Schäfer**, Fan Yang, John Paparrizos, Paul Boniol  
   Berlin: Arik Ermshaus: Humboldt-Universität zu Berlin; Patrick Schäfer: Humboldt-Universität zu Berlin
 
+## Position Paper Track
+
+- **[Looking Under the Streetlight: Evaluation in Generative Molecular Dynamics](https://openreview.net/forum?id=6iB0w2UeaM)** (Poster)  
+  Simon Olsson, **Frank Noe**, Grant Rotskoff, Kresten Lindorff-Larsen  
+  Berlin: Frank Noe: Berlin (unlisted institution)
+
 ## Journal Track
 
 - **[Online Bernstein-von Mises theorem](http://arxiv.org/abs/2504.05661v2)** (Journal of Machine Learning Research (JMLR), Poster)  
@@ -248,6 +267,12 @@ Known gaps:
 - **[CryptHarness: A Harness for Agent-Assisted Cryptanalytic Research](https://openreview.net/forum?id=1Va7bcbAUJ)** (Oral)  
   **Nico Pelleriti**, Nicolai Kraus, Alexander May, **Sebastian Pokutta**  
   Berlin: Nico Pelleriti: Zuse Institute Berlin (ZIB); Sebastian Pokutta: Zuse Institute Berlin (ZIB)
+
+### 8th Robot Learning Workshop: Is Physical AI Going Zero-Shot?
+
+- **[Count Generalization Is Easy, Actually: Warp a Frozen Skill Instead of Retraining It](https://openreview.net/forum?id=bULQOnaFFh)**  
+  Paul Mattes, **Wojciech Samek**, **Marc Toussaint**  
+  Berlin: Wojciech Samek: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Fraunhofer Heinrich Hertz Institute (HHI) / Technische Universität Berlin; Marc Toussaint: Technische Universität Berlin
 
 ### Agentic Systems for Molecular Sciences
 
@@ -305,18 +330,24 @@ Known gaps:
 - **[Reducing cross-sample prediction churn in scientific machine learning](https://openreview.net/forum?id=kPNui2SFvE)**  
   **Gordan Prastalo**, Kevin Maik Jablonka  
   Berlin: Gordan Prastalo: Helmholtz-Zentrum Berlin
+- **[TAME: Element-wise Mixture-of-Experts Fusion for Reliable and Interpretable Molecular Property Prediction](https://openreview.net/forum?id=HzYKHTkXbj)**  
+  Robert Schiller, Christoph Weisser, **Klaus-Robert Müller**, Parastoo Semnani  
+  Berlin: Klaus-Robert Müller: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Technische Universität Berlin
 
 ### AIDaR: AI Data Readiness for Scientific Discovery
 
 - **[Evaluating and Improving Concept Prediction Models for Histopathological Discovery](https://openreview.net/forum?id=IkO8VFimH2)**  
-  Julius Hense, Daniel C. Castro, Shruthi Bannur, **Farnoush Rezaei Jafari**, Daniel Shao, Eric Zimmermann, Kristen Severson, Drew Williamson, Stephanie Hyland, Tristan Lazard, Kenza Bouzid  
-  Berlin: Farnoush Rezaei Jafari: Technische Universität Berlin
+  **Julius Hense**, Daniel C. Castro, Shruthi Bannur, **Farnoush Rezaei Jafari**, Daniel Shao, Eric Zimmermann, Kristen Severson, Drew Williamson, Stephanie Hyland, Tristan Lazard, Kenza Bouzid  
+  Berlin: Julius Hense: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Technische Universität Berlin; Farnoush Rezaei Jafari: Technische Universität Berlin
 - **[Predicting Unseen Scientific Interactions: Conditional Flow Models Hallucinate Non-Additive Effects](https://openreview.net/forum?id=vWJFqW41fl)**  
   **Sam Gijsen**, **Moritz Seiler**, **Kerstin Ritter**  
   Berlin: Sam Gijsen: Charité – Universitätsmedizin Berlin; Moritz Seiler: Charité – Universitätsmedizin Berlin; Kerstin Ritter: Charité – Universitätsmedizin Berlin
 
 ### ATTRIB: Workshop on Data Attribution and Provenance
 
+- **[Attributing Cohen's d: Training Data Attribution for Disease-Related Effects in Normative Age Biomarkers](https://openreview.net/forum?id=F9aVOS1bwB)**  
+  Jakob Snel, **Marc-Andre Schulz**  
+  Berlin: Marc-Andre Schulz: Charité – Universitätsmedizin Berlin
 - **[Can Data Attribution Filter Out Subliminal Learning? Not Reliably.](https://openreview.net/forum?id=7zqk1FawhC)**  
   **Moritz Weckbecker**, Sweta Jena, **Jonas Müller**, Ponnurangam Kumaraguru, **Sebastian Lapuschkin**, **Wojciech Samek**, Louis Jaburi, Gonçalo Paulo  
   Berlin: Moritz Weckbecker: Fraunhofer Heinrich Hertz Institute (HHI); Jonas Müller: Technische Universität Berlin; Sebastian Lapuschkin: Fraunhofer Heinrich Hertz Institute (HHI); Wojciech Samek: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Fraunhofer Heinrich Hertz Institute (HHI) / Technische Universität Berlin
@@ -336,11 +367,20 @@ Known gaps:
   **Gregor Kornhardt**, **Moritz Piening**, **Jannis Chemseddine**, **Gabriele Steidl**  
   Berlin: Gregor Kornhardt: Technische Universität Berlin; Moritz Piening: Technische Universität Berlin; Jannis Chemseddine: Technische Universität Berlin; Gabriele Steidl: Technische Universität Berlin
 
+### Beyond Private Training: The New Landscape of AI Privacy
+
+- **[Differentially Private Term Statistics for Efficient Synthetic Text Generation](https://openreview.net/forum?id=xSZLgxFLgV)**  
+  Maximilian Höfler, Sebastian Hoefler, Karsten Mueller, **Wojciech Samek**  
+  Berlin: Wojciech Samek: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Fraunhofer Heinrich Hertz Institute (HHI) / Technische Universität Berlin
+
 ### Bridging Optimal Transport, Learning and Structured Data: Toward Geometric Distributional Learning
 
 - **[FlowCF: Sparse Counterfactual Explanations for Mixed-Type Tabular Data using Flow Matching](https://openreview.net/forum?id=0DfpRlIMBm)**  
   **Emmanouil Panagiotou**, Eirini Ntoutsi  
   Berlin: Emmanouil Panagiotou: Freie Universität Berlin
+- **[Gromov–Monge Flow Matching for Equivariant Graph Generation](https://openreview.net/forum?id=cEdoVRFAzG)**  
+  **Moritz Piening**, Christian Wald  
+  Berlin: Moritz Piening: Technische Universität Berlin
 
 ### Can We Trust AI Evaluation? Robustness, Causality, and Risk in Modern AI Assessment
 
@@ -371,6 +411,9 @@ Known gaps:
 - **[Group selection to evolve cooperative prompts in populations of LLM agents](https://openreview.net/forum?id=CWWabnG53R)** (Talk + poster)  
   Luis Celiktemel, Edward Eichhorn, **Levin Brinkmann**, Robin Schimmelpfennig, Aron Vallinder, **Yaomin Jiang**, Edward Hughes, **Iyad Rahwan**  
   Berlin: Levin Brinkmann: Max Planck Institute for Human Development; Yaomin Jiang: Max Planck Institute for Human Development; Iyad Rahwan: Max Planck Institute for Human Development
+- **[Model Heterogeneity Attenuates Escalation Dynamics among Large Language Models in War Games](https://openreview.net/forum?id=XU9Ltqd4Nc)** (Talk + poster)  
+  Jihyeon Hyeong, Hiromu Yakura, **Iyad Rahwan**  
+  Berlin: Iyad Rahwan: Max Planck Institute for Human Development
 
 ### Foundations of Language Model Security: Theory, Practice, and Fundamental Limits
 
@@ -386,9 +429,18 @@ Known gaps:
 
 ### Interpretability as a Science: Toward Rigorous Foundations for Understanding LLMs
 
+- **[Degeneration Detection Is Not Early Warning: False-Alarm Evaluation with ONWARD](https://openreview.net/forum?id=D9PCb9C2nJ)**  
+  Marco De Negri, Luca Sartori, Lorenzo Baggi, Moritz Reihs, Eduard F Ďurech, Mennatallah El-Assady, Valentina Pyatkin, **Anna Hedström**  
+  Berlin: Anna Hedström: Fraunhofer Heinrich Hertz Institute (HHI) / Technische Universität Berlin
 - **[KV-Cache Patching: Tracing How and Where Fine-Tuned Behaviors Arise](http://arxiv.org/abs/2610.41480v1)**  
   **Jonas Loos**, **Oliver Eberle**  
   Berlin: Jonas Loos: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Technische Universität Berlin; Oliver Eberle: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Technische Universität Berlin
+
+### Machine Learning for Simulations in Biology and Chemistry - The 2nd SIMBIOCHEM Workshop
+
+- **[TAME: Element-wise Mixture-of-Experts Fusion for Reliable and Interpretable Molecular Property Prediction](https://openreview.net/forum?id=P7gw7ZVb4i)**  
+  Robert Schiller, Christoph Weisser, **Klaus-Robert Müller**, Parastoo Semnani  
+  Berlin: Klaus-Robert Müller: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Technische Universität Berlin
 
 ### Managing Agents that Manage Agents: Workshop on Responsible Use of Meta-Agents that Build, Optimize, and Supervise Other Agents
 
@@ -429,8 +481,8 @@ Known gaps:
 ### SLM-Agents: 1st Workshop on SLMs for Agentic Systems
 
 - **[E8 Lattice Key Quantization for Low-Bit KV-Cache Compression](https://openreview.net/forum?id=2QPitX2aBz)** (Poster)  
-  **Sasho Nedelkoski**, Alexander Acker, Soeren Becker, **Dominik Scheinert**, **Odej Kao**  
-  Berlin: Sasho Nedelkoski: Technische Universität Berlin; Dominik Scheinert: Technische Universität Berlin; Odej Kao: Technische Universität Berlin
+  **Sasho Nedelkoski**, **Alexander Acker**, **Soeren Becker**, **Dominik Scheinert**, **Odej Kao**  
+  Berlin: Sasho Nedelkoski: Technische Universität Berlin; Alexander Acker: Berlin (unlisted institution); Soeren Becker: Berlin (unlisted institution); Dominik Scheinert: Technische Universität Berlin; Odej Kao: Technische Universität Berlin
 
 ### SocialAgent: Second Workshop on Large Language Models for Social Reasoning and Simulation
 
@@ -482,6 +534,9 @@ Known gaps:
 - **[Safety Signals to Verify NetOps Agents with Action-Level Granularity](https://openreview.net/forum?id=jsKXBu5m95)**  
   **Tobias Labarta**, **Frederik Pahde**, Novak Boskov, **Maximilian Dreyer**, David Birkenberger, Manzoor A Khan, **Sebastian Lapuschkin**, **Wojciech Samek**  
   Berlin: Tobias Labarta: Fraunhofer Heinrich Hertz Institute (HHI); Frederik Pahde: Fraunhofer Heinrich Hertz Institute (HHI); Maximilian Dreyer: Fraunhofer Heinrich Hertz Institute (HHI); Sebastian Lapuschkin: Fraunhofer Heinrich Hertz Institute (HHI); Wojciech Samek: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Fraunhofer Heinrich Hertz Institute (HHI) / Technische Universität Berlin
+- **[When Tool Calls Succeed but Workflows Fail: Anomalies at the Agent-Tool Boundary](https://openreview.net/forum?id=5oH0v1T8k9)**  
+  **Artem Trofimov**, Boris Novikov  
+  Berlin: Artem Trofimov: Berlin (unlisted institution)
 
 ### Workshop on Evaluation of Interactive Agents
 
@@ -509,9 +564,12 @@ Known gaps:
 
 ### XAI4science: Knowledge Discovery and Trust through Interpretable Foundation Models
 
+- **[Beyond Post-Hoc Saliency: Assessing Mechanistic Representation Interventions in a Deep Learning Weather Model](https://openreview.net/forum?id=uae6iYb1hw)**  
+  Philine L Bommer, Marlene Kretschmer, Emma Kasteleyn, **Anna Hedström**, Ana Lucic, Fanny Lehmann, Marina Höhne  
+  Berlin: Anna Hedström: Fraunhofer Heinrich Hertz Institute (HHI) / Technische Universität Berlin
 - **[Evaluating and Improving Concept Prediction Models for Histopathological Discovery](https://openreview.net/forum?id=4I17sCFvjq)**  
-  Julius Hense, Daniel C. Castro, Shruthi Bannur, **Farnoush Rezaei Jafari**, Daniel Shao, Eric Zimmermann, Kristen Severson, Drew Williamson, Stephanie Hyland, Tristan Lazard, Kenza Bouzid  
-  Berlin: Farnoush Rezaei Jafari: Technische Universität Berlin
+  **Julius Hense**, Daniel C. Castro, Shruthi Bannur, **Farnoush Rezaei Jafari**, Daniel Shao, Eric Zimmermann, Kristen Severson, Drew Williamson, Stephanie Hyland, Tristan Lazard, Kenza Bouzid  
+  Berlin: Julius Hense: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Technische Universität Berlin; Farnoush Rezaei Jafari: Technische Universität Berlin
 - **[Value or Attention: Investigating Layer-wise Relevance Propagation for Graph Attention Networks](https://openreview.net/forum?id=baqw0BWzmX)**  
   **Ken Schreiber**, **René P. Klausen**, **Sebastian Lapuschkin**, **Wojciech Samek**, **Jonas Naujoks**  
   Berlin: Ken Schreiber: Fraunhofer Heinrich Hertz Institute (HHI); René P. Klausen: Fraunhofer Heinrich Hertz Institute (HHI); Sebastian Lapuschkin: Fraunhofer Heinrich Hertz Institute (HHI); Wojciech Samek: BIFOLD – Berlin Institute for the Foundations of Learning and Data / Fraunhofer Heinrich Hertz Institute (HHI) / Technische Universität Berlin; Jonas Naujoks: Fraunhofer Heinrich Hertz Institute (HHI)

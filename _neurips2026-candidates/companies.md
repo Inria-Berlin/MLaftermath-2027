@@ -1,6 +1,6 @@
 # NeurIPS 2026 contributions by authors at listed companies
 
-Generated 2026-11-10. Authors whose NeurIPS or OpenReview affiliation names one of the companies on the organizers' list (Prior Labs, NVIDIA, Aleph Alpha, DeepL, Helsing, Black Forest Labs), in bold. They are listed because of their employer; where they work was not checked. People who also have a Berlin affiliation are in the [Berlin list](README.md) instead. A paper with authors at two companies appears under both.
+Generated 2026-11-11. Authors whose NeurIPS or OpenReview affiliation names one of the companies on the organizers' list (Prior Labs, NVIDIA, Aleph Alpha, DeepL, Helsing, Black Forest Labs), in bold. They are listed because of their employer; where they work was not checked. People who also have a Berlin affiliation are in the [Berlin list](README.md) instead. A paper with authors at two companies appears under both.
 
 Everything here comes from public sources: the NeurIPS 2026 virtual site, OpenReview and the papers' first pages. This folder is not meant for the website: Jekyll skips folders starting with `_`. Being listed here says nothing about invitations.
 
